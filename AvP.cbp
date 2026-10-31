@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AvP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AvP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++98" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lopenal" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AvP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++98" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lopenal" />
+				</Linker>
+			</Target>
+			<Target title="Debug_AROS">
+				<Option output="bin/Debug_AROS/AvP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug_AROS/" />
+				<Option type="0" />
+				<Option compiler="aros_gnu_gcc_compiler" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D__AROS__" />
+					<Add directory="/home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL" />
+					<Add directory="/home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/AL" />
+				</Compiler>
+				<Linker>
+					<Add option="-lopenal" />
+				</Linker>
+			</Target>
+			<Target title="Release_AROS">
+				<Option output="bin/Release_AROS/AvP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release_AROS/" />
+				<Option type="0" />
+				<Option compiler="aros_gnu_gcc_compiler" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-D__AROS__" />
+					<Add option="-DNDEBUG" />
+					<Add directory="/home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL" />
+					<Add directory="/home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/AL" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lopenal" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+			<Add directory="src/include" />
+			<Add directory="src/avp/win95" />
+			<Add directory="src/avp" />
+			<Add directory="src/win95" />
+			<Add directory="src" />
+			<Add directory="src/avp/win95/frontend" />
+			<Add directory="src/avp/support" />
+			<Add directory="src/avp/win95/gadgets" />
+			<Add directory="/usr/include/AL/" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="src/aroserror.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug_AROS" />
+			<Option target="Release_AROS" />
+		</Unit>
+		<Unit filename="src/aroserror.h" />
+		<Unit filename="src/avp/ai_sight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/ai_sight.h" />
+		<Unit filename="src/avp/avpview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/avpview.h" />
+		<Unit filename="src/avp/bh_agun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_agun.h" />
+		<Unit filename="src/avp/bh_ais.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_ais.h" />
+		<Unit filename="src/avp/bh_alien.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_alien.h" />
+		<Unit filename="src/avp/bh_binsw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_binsw.h" />
+		<Unit filename="src/avp/bh_cable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_cable.h" />
+		<Unit filename="src/avp/bh_corpse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_corpse.h" />
+		<Unit filename="src/avp/bh_deathvol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_deathvol.h" />
+		<Unit filename="src/avp/bh_debri.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_debri.h" />
+		<Unit filename="src/avp/bh_dummy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_dummy.h" />
+		<Unit filename="src/avp/bh_fan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_fan.h" />
+		<Unit filename="src/avp/bh_far.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_far.h" />
+		<Unit filename="src/avp/bh_fhug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_fhug.h" />
+		<Unit filename="src/avp/bh_gener.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_gener.h" />
+		<Unit filename="src/avp/bh_ldoor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_ldoor.h" />
+		<Unit filename="src/avp/bh_lift.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_lift.h" />
+		<Unit filename="src/avp/bh_light.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_light.h" />
+		<Unit filename="src/avp/bh_lnksw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_lnksw.h" />
+		<Unit filename="src/avp/bh_ltfx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_ltfx.h" />
+		<Unit filename="src/avp/bh_marin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_marin.h" />
+		<Unit filename="src/avp/bh_mission.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_mission.h" />
+		<Unit filename="src/avp/bh_near.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_near.h" />
+		<Unit filename="src/avp/bh_paq.h" />
+		<Unit filename="src/avp/bh_pargen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_pargen.h" />
+		<Unit filename="src/avp/bh_plachier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_plachier.h" />
+		<Unit filename="src/avp/bh_plift.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_plift.h" />
+		<Unit filename="src/avp/bh_pred.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_pred.h" />
+		<Unit filename="src/avp/bh_queen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_queen.h" />
+		<Unit filename="src/avp/bh_rubberduck.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_rubberduck.h" />
+		<Unit filename="src/avp/bh_selfdest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_selfdest.h" />
+		<Unit filename="src/avp/bh_snds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_snds.h" />
+		<Unit filename="src/avp/bh_spcl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_spcl.h" />
+		<Unit filename="src/avp/bh_swdor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_swdor.h" />
+		<Unit filename="src/avp/bh_track.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_track.h" />
+		<Unit filename="src/avp/bh_types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_types.h" />
+		<Unit filename="src/avp/bh_videoscreen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_videoscreen.h" />
+		<Unit filename="src/avp/bh_waypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_waypt.h" />
+		<Unit filename="src/avp/bh_weap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_weap.h" />
+		<Unit filename="src/avp/bh_xeno.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bh_xeno.h" />
+		<Unit filename="src/avp/bonusabilities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/bonusabilities.h" />
+		<Unit filename="src/avp/cconvars.cpp" />
+		<Unit filename="src/avp/cdtrackselection.cpp" />
+		<Unit filename="src/avp/cdtrackselection.h" />
+		<Unit filename="src/avp/cheatmodes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/cheatmodes.h" />
+		<Unit filename="src/avp/comp_map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/comp_shp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/comp_shp.h" />
+		<Unit filename="src/avp/consolelog.cpp" />
+		<Unit filename="src/avp/consolelog.hpp" />
+		<Unit filename="src/avp/davehook.cpp" />
+		<Unit filename="src/avp/davehook.h" />
+		<Unit filename="src/avp/deaths.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/decal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/decal.h" />
+		<Unit filename="src/avp/detaillevels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/detaillevels.h" />
+		<Unit filename="src/avp/dynamics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/dynamics.h" />
+		<Unit filename="src/avp/dynblock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/dynblock.h" />
+		<Unit filename="src/avp/equates.h" />
+		<Unit filename="src/avp/equipmnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/equipmnt.h" />
+		<Unit filename="src/avp/extents.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/extents.h" />
+		<Unit filename="src/avp/game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/game.h" />
+		<Unit filename="src/avp/game_statistics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/game_statistics.h" />
+		<Unit filename="src/avp/gamecmds.cpp" />
+		<Unit filename="src/avp/gamedef.h" />
+		<Unit filename="src/avp/gamevars.cpp" />
+		<Unit filename="src/avp/hmodel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/hmodel.h" />
+		<Unit filename="src/avp/hud.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/hud.h" />
+		<Unit filename="src/avp/huddefs.h" />
+		<Unit filename="src/avp/inventry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/inventry.h" />
+		<Unit filename="src/avp/langenum.h" />
+		<Unit filename="src/avp/language.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/language.h" />
+		<Unit filename="src/avp/lighting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/lighting.h" />
+		<Unit filename="src/avp/load_shp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/load_shp.h" />
+		<Unit filename="src/avp/los.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/los.h" />
+		<Unit filename="src/avp/ltfx_exp.h" />
+		<Unit filename="src/avp/mempool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/mempool.h" />
+		<Unit filename="src/avp/messagehistory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/messagehistory.h" />
+		<Unit filename="src/avp/missions.cpp" />
+		<Unit filename="src/avp/missions.hpp" />
+		<Unit filename="src/avp/movement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/paintball.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/paintball.h" />
+		<Unit filename="src/avp/particle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/particle.h" />
+		<Unit filename="src/avp/pfarlocs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/pfarlocs.h" />
+		<Unit filename="src/avp/pheromon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/pheromon.h" />
+		<Unit filename="src/avp/player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/player.h" />
+		<Unit filename="src/avp/pmove.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/pmove.h" />
+		<Unit filename="src/avp/projfont.h" />
+		<Unit filename="src/avp/projtext.h" />
+		<Unit filename="src/avp/psnd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/psnd.h" />
+		<Unit filename="src/avp/psndproj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/psndproj.h" />
+		<Unit filename="src/avp/pvisible.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/pvisible.h" />
+		<Unit filename="src/avp/savegame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/savegame.h" />
+		<Unit filename="src/avp/scream.cpp" />
+		<Unit filename="src/avp/scream.h" />
+		<Unit filename="src/avp/secstats.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/sequnces.h" />
+		<Unit filename="src/avp/sfx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/sfx.h" />
+		<Unit filename="src/avp/shapes/cube.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/stratdef.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/stratdef.h" />
+		<Unit filename="src/avp/support/command.hpp" />
+		<Unit filename="src/avp/support/consbind.cpp" />
+		<Unit filename="src/avp/support/consbind.hpp" />
+		<Unit filename="src/avp/support/consbtch.cpp" />
+		<Unit filename="src/avp/support/consbtch.hpp" />
+		<Unit filename="src/avp/support/coordstr.cpp" />
+		<Unit filename="src/avp/support/coordstr.hpp" />
+		<Unit filename="src/avp/support/daemon.cpp" />
+		<Unit filename="src/avp/support/daemon.h" />
+		<Unit filename="src/avp/support/dcontext.hpp" />
+		<Unit filename="src/avp/support/indexfnt.cpp" />
+		<Unit filename="src/avp/support/indexfnt.hpp" />
+		<Unit filename="src/avp/support/ourbool.h" />
+		<Unit filename="src/avp/support/r2base.cpp" />
+		<Unit filename="src/avp/support/r2base.h" />
+		<Unit filename="src/avp/support/r2pos666.cpp" />
+		<Unit filename="src/avp/support/r2pos666.hpp" />
+		<Unit filename="src/avp/support/reflist.cpp" />
+		<Unit filename="src/avp/support/reflist.hpp" />
+		<Unit filename="src/avp/support/refobj.cpp" />
+		<Unit filename="src/avp/support/refobj.hpp" />
+		<Unit filename="src/avp/support/rentrntq.cpp" />
+		<Unit filename="src/avp/support/rentrntq.h" />
+		<Unit filename="src/avp/support/scstring.cpp" />
+		<Unit filename="src/avp/support/scstring.hpp" />
+		<Unit filename="src/avp/support/strtab.cpp" />
+		<Unit filename="src/avp/support/strtab.hpp" />
+		<Unit filename="src/avp/support/strutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/support/strutil.h" />
+		<Unit filename="src/avp/support/tallfont.hpp" />
+		<Unit filename="src/avp/support/trig666.cpp" />
+		<Unit filename="src/avp/support/trig666.hpp" />
+		<Unit filename="src/avp/support/wrapstr.cpp" />
+		<Unit filename="src/avp/support/wrapstr.hpp" />
+		<Unit filename="src/avp/targeting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/targeting.h" />
+		<Unit filename="src/avp/track.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/track.h" />
+		<Unit filename="src/avp/triggers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/triggers.h" />
+		<Unit filename="src/avp/weapons.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/weapons.h" />
+		<Unit filename="src/avp/win95/avpchunk.cpp" />
+		<Unit filename="src/avp/win95/avpchunk.hpp" />
+		<Unit filename="src/avp/win95/avpreg.hpp" />
+		<Unit filename="src/avp/win95/bmp2.h" />
+		<Unit filename="src/avp/win95/cheat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/cheat.h" />
+		<Unit filename="src/avp/win95/chtcodes.cpp" />
+		<Unit filename="src/avp/win95/d3d_hud.cpp" />
+		<Unit filename="src/avp/win95/d3d_hud.h" />
+		<Unit filename="src/avp/win95/d3d_render.h" />
+		<Unit filename="src/avp/win95/datatype.h" />
+		<Unit filename="src/avp/win95/ddplat.cpp" />
+		<Unit filename="src/avp/win95/dp_func.h" />
+		<Unit filename="src/avp/win95/dplayext.h" />
+		<Unit filename="src/avp/win95/endianio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/endianio.h" />
+		<Unit filename="src/avp/win95/ffread.cpp" />
+		<Unit filename="src/avp/win95/ffread.hpp" />
+		<Unit filename="src/avp/win95/ffstdio.cpp" />
+		<Unit filename="src/avp/win95/ffstdio.h" />
+		<Unit filename="src/avp/win95/font.h" />
+		<Unit filename="src/avp/win95/frontend/avp_envinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/frontend/avp_envinfo.h" />
+		<Unit filename="src/avp/win95/frontend/avp_intro.cpp" />
+		<Unit filename="src/avp/win95/frontend/avp_intro.h" />
+		<Unit filename="src/avp/win95/frontend/avp_menudata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/frontend/avp_menudata.h" />
+		<Unit filename="src/avp/win95/frontend/avp_menugfx.hpp" />
+		<Unit filename="src/avp/win95/frontend/avp_menus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/frontend/avp_menus.h" />
+		<Unit filename="src/avp/win95/frontend/avp_mp_config.cpp" />
+		<Unit filename="src/avp/win95/frontend/avp_mp_config.h" />
+		<Unit filename="src/avp/win95/frontend/avp_userprofile.cpp" />
+		<Unit filename="src/avp/win95/frontend/avp_userprofile.h" />
+		<Unit filename="src/avp/win95/gadgets/ahudgadg.cpp" />
+		<Unit filename="src/avp/win95/gadgets/ahudgadg.hpp" />
+		<Unit filename="src/avp/win95/gadgets/conscmnd.cpp" />
+		<Unit filename="src/avp/win95/gadgets/conscmnd.hpp" />
+		<Unit filename="src/avp/win95/gadgets/conssym.cpp" />
+		<Unit filename="src/avp/win95/gadgets/conssym.hpp" />
+		<Unit filename="src/avp/win95/gadgets/consvar.cpp" />
+		<Unit filename="src/avp/win95/gadgets/consvar.hpp" />
+		<Unit filename="src/avp/win95/gadgets/gadget.cpp" />
+		<Unit filename="src/avp/win95/gadgets/gadget.h" />
+		<Unit filename="src/avp/win95/gadgets/hudgadg.cpp" />
+		<Unit filename="src/avp/win95/gadgets/hudgadg.hpp" />
+		<Unit filename="src/avp/win95/gadgets/rootgadg.cpp" />
+		<Unit filename="src/avp/win95/gadgets/rootgadg.hpp" />
+		<Unit filename="src/avp/win95/gadgets/t_ingadg.cpp" />
+		<Unit filename="src/avp/win95/gadgets/t_ingadg.hpp" />
+		<Unit filename="src/avp/win95/gadgets/teletype.cpp" />
+		<Unit filename="src/avp/win95/gadgets/teletype.hpp" />
+		<Unit filename="src/avp/win95/gadgets/textexp.cpp" />
+		<Unit filename="src/avp/win95/gadgets/textexp.hpp" />
+		<Unit filename="src/avp/win95/gadgets/textin.cpp" />
+		<Unit filename="src/avp/win95/gadgets/textin.hpp" />
+		<Unit filename="src/avp/win95/gadgets/trepgadg.cpp" />
+		<Unit filename="src/avp/win95/gadgets/trepgadg.hpp" />
+		<Unit filename="src/avp/win95/gameplat.h" />
+		<Unit filename="src/avp/win95/gammacontrol.cpp" />
+		<Unit filename="src/avp/win95/gammacontrol.h" />
+		<Unit filename="src/avp/win95/heap_tem.hpp" />
+		<Unit filename="src/avp/win95/hierplace.cpp" />
+		<Unit filename="src/avp/win95/hierplace.hpp" />
+		<Unit filename="src/avp/win95/hud_data.h" />
+		<Unit filename="src/avp/win95/hud_layout.h" />
+		<Unit filename="src/avp/win95/hudgfx.h" />
+		<Unit filename="src/avp/win95/iofocus.cpp" />
+		<Unit filename="src/avp/win95/iofocus.h" />
+		<Unit filename="src/avp/win95/jsndsup.cpp" />
+		<Unit filename="src/avp/win95/jsndsup.h" />
+		<Unit filename="src/avp/win95/kzsort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/kzsort.h" />
+		<Unit filename="src/avp/win95/langplat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/modcmds.cpp" />
+		<Unit filename="src/avp/win95/modcmds.hpp" />
+		<Unit filename="src/avp/win95/multmenu.h" />
+		<Unit filename="src/avp/win95/npcsetup.cpp" />
+		<Unit filename="src/avp/win95/npcsetup.h" />
+		<Unit filename="src/avp/win95/objsetup.cpp" />
+		<Unit filename="src/avp/win95/objsetup.hpp" />
+		<Unit filename="src/avp/win95/pathchnk.cpp" />
+		<Unit filename="src/avp/win95/pathchnk.hpp" />
+		<Unit filename="src/avp/win95/pcmenus.h" />
+		<Unit filename="src/avp/win95/platsup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/pldghost.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/pldghost.h" />
+		<Unit filename="src/avp/win95/pldnet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/pldnet.h" />
+		<Unit filename="src/avp/win95/progress_bar.cpp" />
+		<Unit filename="src/avp/win95/progress_bar.h" />
+		<Unit filename="src/avp/win95/projload.cpp" />
+		<Unit filename="src/avp/win95/projload.hpp" />
+		<Unit filename="src/avp/win95/psndplat.h" />
+		<Unit filename="src/avp/win95/scrshot.cpp" />
+		<Unit filename="src/avp/win95/scrshot.hpp" />
+		<Unit filename="src/avp/win95/strachnk.cpp" />
+		<Unit filename="src/avp/win95/strachnk.hpp" />
+		<Unit filename="src/avp/win95/system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/system.h" />
+		<Unit filename="src/avp/win95/usr_io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/usr_io.h" />
+		<Unit filename="src/avp/win95/vision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avp/win95/vision.h" />
+		<Unit filename="src/avp/win95/vmanpset.h" />
+		<Unit filename="src/cdplayer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cdplayer.h" />
+		<Unit filename="src/files.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/files.h" />
+		<Unit filename="src/fixer.h" />
+		<Unit filename="src/fmv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fmv.h" />
+		<Unit filename="src/fnmatch.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug_AROS" />
+			<Option target="Release_AROS" />
+		</Unit>
+		<Unit filename="src/fnmatch.h" />
+		<Unit filename="src/frustum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/frustum.h" />
+		<Unit filename="src/include/3dc.h" />
+		<Unit filename="src/include/mem3dc.h" />
+		<Unit filename="src/include/module.h" />
+		<Unit filename="src/include/prototyp.h" />
+		<Unit filename="src/include/shape.h" />
+		<Unit filename="src/kshape.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/kshape.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mathline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mathline.h" />
+		<Unit filename="src/maths.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/maths.h" />
+		<Unit filename="src/md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/md5.h" />
+		<Unit filename="src/mem3dc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mem3dcpp.cpp" />
+		<Unit filename="src/menus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/module.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/morph.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/net.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/net.h" />
+		<Unit filename="src/object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/oglfunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/oglfunc.h" />
+		<Unit filename="src/openal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/opengl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/opengl.h" />
+		<Unit filename="src/shpanim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sphere.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sphere.h" />
+		<Unit filename="src/stubs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/unaligned.h" />
+		<Unit filename="src/vdb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/version.h" />
+		<Unit filename="src/win95/alt_tab.h" />
+		<Unit filename="src/win95/animchnk.cpp" />
+		<Unit filename="src/win95/animchnk.hpp" />
+		<Unit filename="src/win95/animobs.cpp" />
+		<Unit filename="src/win95/animobs.hpp" />
+		<Unit filename="src/win95/aw.h" />
+		<Unit filename="src/win95/awbmpld.cpp" />
+		<Unit filename="src/win95/awiffld.cpp" />
+		<Unit filename="src/win95/awpnmld.cpp" />
+		<Unit filename="src/win95/awtexld.cpp" />
+		<Unit filename="src/win95/awtexld.h" />
+		<Unit filename="src/win95/awtexld.hpp" />
+		<Unit filename="src/win95/bmpnames.cpp" />
+		<Unit filename="src/win95/bmpnames.hpp" />
+		<Unit filename="src/win95/cd_player.h" />
+		<Unit filename="src/win95/chnkload.cpp" />
+		<Unit filename="src/win95/chnkload.h" />
+		<Unit filename="src/win95/chnkload.hpp" />
+		<Unit filename="src/win95/chnktexi.cpp" />
+		<Unit filename="src/win95/chnktexi.h" />
+		<Unit filename="src/win95/chnktype.cpp" />
+		<Unit filename="src/win95/chnktype.hpp" />
+		<Unit filename="src/win95/chunk.cpp" />
+		<Unit filename="src/win95/chunk.hpp" />
+		<Unit filename="src/win95/chunkpal.cpp" />
+		<Unit filename="src/win95/chunkpal.hpp" />
+		<Unit filename="src/win95/d3_func.h" />
+		<Unit filename="src/win95/db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/win95/db.h" />
+		<Unit filename="src/win95/debuglog.cpp" />
+		<Unit filename="src/win95/debuglog.h" />
+		<Unit filename="src/win95/debuglog.hpp" />
+		<Unit filename="src/win95/dummyobjectchunk.cpp" />
+		<Unit filename="src/win95/dummyobjectchunk.hpp" />
+		<Unit filename="src/win95/dxlog.h" />
+		<Unit filename="src/win95/enumchnk.cpp" />
+		<Unit filename="src/win95/enumchnk.hpp" />
+		<Unit filename="src/win95/enumsch.cpp" />
+		<Unit filename="src/win95/enumsch.hpp" />
+		<Unit filename="src/win95/envchunk.cpp" />
+		<Unit filename="src/win95/envchunk.hpp" />
+		<Unit filename="src/win95/fail.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/win95/fail.h" />
+		<Unit filename="src/win95/fragchnk.cpp" />
+		<Unit filename="src/win95/fragchnk.hpp" />
+		<Unit filename="src/win95/gsprchnk.cpp" />
+		<Unit filename="src/win95/gsprchnk.hpp" />
+		<Unit filename="src/win95/hash_tem.hpp" />
+		<Unit filename="src/win95/hierchnk.cpp" />
+		<Unit filename="src/win95/hierchnk.hpp" />
+		<Unit filename="src/win95/huffman.cpp" />
+		<Unit filename="src/win95/huffman.hpp" />
+		<Unit filename="src/win95/iff.cpp" />
+		<Unit filename="src/win95/iff.hpp" />
+		<Unit filename="src/win95/iff_ilbm.cpp" />
+		<Unit filename="src/win95/iff_ilbm.hpp" />
+		<Unit filename="src/win95/ilbm_ext.cpp" />
+		<Unit filename="src/win95/ilbm_ext.hpp" />
+		<Unit filename="src/win95/io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/win95/list_tem.cpp" />
+		<Unit filename="src/win95/list_tem.hpp" />
+		<Unit filename="src/win95/ltchunk.cpp" />
+		<Unit filename="src/win95/ltchunk.hpp" />
+		<Unit filename="src/win95/media.cpp" />
+		<Unit filename="src/win95/media.hpp" />
+		<Unit filename="src/win95/mishchnk.cpp" />
+		<Unit filename="src/win95/mishchnk.hpp" />
+		<Unit filename="src/win95/mmx_math.h" />
+		<Unit filename="src/win95/obchunk.cpp" />
+		<Unit filename="src/win95/obchunk.hpp" />
+		<Unit filename="src/win95/oechunk.cpp" />
+		<Unit filename="src/win95/oechunk.h" />
+		<Unit filename="src/win95/our_mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/win95/ourasert.h" />
+		<Unit filename="src/win95/plat_shp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/win95/plat_shp.h" />
+		<Unit filename="src/win95/platform.h" />
+		<Unit filename="src/win95/plspecfn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/win95/showcmds.h" />
+		<Unit filename="src/win95/shpanim.h" />
+		<Unit filename="src/win95/shpchunk.cpp" />
+		<Unit filename="src/win95/shpchunk.hpp" />
+		<Unit filename="src/win95/sndchunk.cpp" />
+		<Unit filename="src/win95/sndchunk.hpp" />
+		<Unit filename="src/win95/sprchunk.cpp" />
+		<Unit filename="src/win95/sprchunk.hpp" />
+		<Unit filename="src/win95/string.cpp" />
+		<Unit filename="src/win95/string.hpp" />
+		<Unit filename="src/win95/texio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/win95/toolchnk.cpp" />
+		<Unit filename="src/win95/toolchnk.hpp" />
+		<Unit filename="src/win95/txioctrl.cpp" />
+		<Unit filename="src/win95/txioctrl.h" />
+		<Unit filename="src/win95/videomodes.h" />
+		<Unit filename="src/win95/wpchunk.cpp" />
+		<Unit filename="src/win95/wpchunk.hpp" />
+		<Unit filename="src/win95/zsp.cpp" />
+		<Unit filename="src/win95/zsp.hpp" />
+		<Unit filename="src/winapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

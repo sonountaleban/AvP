@@ -1,0 +1,4571 @@
+# depslib dependency file v1.0
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/ai_sight.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"los.h"
+	"showcmds.h"
+	"equipmnt.h"
+	"bh_marin.h"
+	"bh_xeno.h"
+	"targeting.h"
+	"bh_weap.h"
+	"bh_agun.h"
+	"ai_sight.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/include/3dc.h
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	"system.h"
+	"equates.h"
+	"platform.h"
+	"shape.h"
+	"prototyp.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/system.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/equates.h
+
+1792531683 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/platform.h
+	"fixer.h"
+	"shape.h"
+
+1793305433 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/fixer.h
+	<windows.h>
+	<tchar.h>
+	<mbstring.h>
+	<inttypes.h>
+	"files.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<inttypes.h>
+	"files.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/files.h
+	<stdio.h>
+	<time.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/include/shape.h
+	"aw.h"
+	"shpanim.h"
+	"sheader.h"
+	"pheader.h"
+	"iheader.h"
+	"theader.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/aw.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/shpanim.h
+
+1792531714 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/include/prototyp.h
+	"shpanim.h"
+	"mem3dc.h"
+
+1793301888 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/include/mem3dc.h
+	"fixer.h"
+	"system.h"
+	<stddef.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/inline.h
+	"mmx_math.h"
+	"mathline.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/mmx_math.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/mathline.h
+	<math.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/include/module.h
+	"bh_waypt.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_waypt.h
+
+1792531873 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/stratdef.h
+	"unaligned.h"
+	"hmodel.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/unaligned.h
+	<emscripten.h>
+	<stdint.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/hmodel.h
+	"decal.h"
+	"psnd.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/decal.h
+	"d3_func.h"
+	"vision.h"
+
+1792531739 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/d3_func.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/vision.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/psnd.h
+	"psndproj.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/psndproj.h
+	"equipmnt.h"
+
+1792531873 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/equipmnt.h
+	"language.h"
+	"gamedef.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/language.h
+	"langenum.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/langenum.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/gamedef.h
+	"module.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/dynblock.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/dynamics.h
+	"particle.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/particle.h
+	"decal.h"
+	"dynblock.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/los.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/showcmds.h
+
+1792531986 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_marin.h
+	"bh_pred.h"
+	"psndproj.h"
+	"sfx.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_pred.h
+	"bh_ais.h"
+	"decal.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_ais.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/sfx.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_xeno.h
+	"particle.h"
+	"bh_ais.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/targeting.h
+
+1792531986 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_weap.h
+	"particle.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_agun.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/ai_sight.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/ourasert.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_agun.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"dynamics.h"
+	"weapons.h"
+	"comp_shp.h"
+	"inventry.h"
+	"triggers.h"
+	"ourasert.h"
+	"pmove.h"
+	"pvisible.h"
+	"bh_swdor.h"
+	"bh_plift.h"
+	"load_shp.h"
+	"bh_weap.h"
+	"bh_debri.h"
+	"lighting.h"
+	"bh_lnksw.h"
+	"bh_binsw.h"
+	"pheromon.h"
+	"bh_pred.h"
+	"bh_agun.h"
+	"plat_shp.h"
+	"psnd.h"
+	"ai_sight.h"
+	"sequnces.h"
+	"huddefs.h"
+	"showcmds.h"
+	"sfx.h"
+	"bh_marin.h"
+	"bh_far.h"
+	"targeting.h"
+	"dxlog.h"
+	"los.h"
+	"psndplat.h"
+	"bh_dummy.h"
+	"bh_corpse.h"
+	"pldghost.h"
+	"pldnet.h"
+	"savegame.h"
+
+1792532028 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_types.h
+	"equipmnt.h"
+	"pmove.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pmove.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/weapons.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/comp_shp.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/inventry.h
+
+1792532364 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/triggers.h
+
+1792532364 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pvisible.h
+
+1792532438 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_swdor.h
+
+1792532438 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_plift.h
+	"track.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/track.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/load_shp.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_debri.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/lighting.h
+
+1792532438 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_lnksw.h
+	"track.h"
+
+1792532462 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_binsw.h
+	"3dc.h"
+	"track.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pheromon.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/plat_shp.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/sequnces.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/huddefs.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_far.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/dxlog.h
+	"system.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/psndplat.h
+	"psndproj.h"
+	"psnd.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_dummy.h
+	"bh_ais.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_corpse.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/pldghost.h
+	"pvisible.h"
+	"pldnet.h"
+
+1792532364 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/pldnet.h
+	"psnd.h"
+	"particle.h"
+	"decal.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/savegame.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_ais.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pheromon.h"
+	"bh_types.h"
+	"pvisible.h"
+	"bh_far.h"
+	"bh_debri.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_alien.h"
+	"bh_agun.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"psnd.h"
+	"equipmnt.h"
+	"los.h"
+	"ai_sight.h"
+	"targeting.h"
+	"dxlog.h"
+	"showcmds.h"
+	"huddefs.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pfarlocs.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_paq.h
+	"bh_pred.h"
+
+1792532608 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_queen.h
+	"bh_pred.h"
+	"scream.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/scream.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_alien.h
+	"bh_pred.h"
+	"sequnces.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_binsw.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_binsw.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pldghost.h"
+	"ourasert.h"
+	"pmove.h"
+	"pvisible.h"
+	"plat_shp.h"
+	"psnd.h"
+	"savegame.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/avpview.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"gamedef.h"
+	"stratdef.h"
+	"dynblock.h"
+	"bh_types.h"
+	"avpview.h"
+	"opengl.h"
+	"kshape.h"
+	"kzsort.h"
+	"frustum.h"
+	"vision.h"
+	"lighting.h"
+	"weapons.h"
+	"sfx.h"
+	"fmv.h"
+	"extents.h"
+	"avp_userprofile.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/avpview.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/opengl.h
+	"kshape.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/kshape.h
+	"particle.h"
+	"sphere.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/sphere.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/kzsort.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/frustum.h
+	"kshape.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/fmv.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/extents.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_userprofile.h
+	"usr_io.h"
+	"avp_envinfo.h"
+	"game_statistics.h"
+	"detaillevels.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/usr_io.h
+	"avp_menus.h"
+
+1792532051 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_menus.h
+	"avp_menugfx.hpp"
+	"language.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_menugfx.hpp
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_envinfo.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/game_statistics.h
+	"equipmnt.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/detaillevels.h
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_alien.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"comp_shp.h"
+	"load_shp.h"
+	"bh_types.h"
+	"bh_debri.h"
+	"bh_far.h"
+	"bh_near.h"
+	"bh_gener.h"
+	"bh_pred.h"
+	"bh_alien.h"
+	"bh_marin.h"
+	"weapons.h"
+	"pheromon.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"psnd.h"
+	"psndplat.h"
+	"extents.h"
+	"huddefs.h"
+	"pldghost.h"
+	"bh_corpse.h"
+	"bh_dummy.h"
+	"game_statistics.h"
+	"scream.h"
+	"ourasert.h"
+	"pldnet.h"
+	"avp_userprofile.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_near.h
+
+1792532586 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_gener.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_cable.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_cable.h"
+	"dynamics.h"
+	"pvisible.h"
+	"ourasert.h"
+	"plat_shp.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_cable.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_corpse.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"lighting.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"pheromon.h"
+	"bh_gener.h"
+	"bh_far.h"
+	"bh_pred.h"
+	"bh_marin.h"
+	"bh_weap.h"
+	"bh_debri.h"
+	"bh_alien.h"
+	"bh_xeno.h"
+	"psnd.h"
+	"weapons.h"
+	"load_shp.h"
+	"particle.h"
+	"sfx.h"
+	"huddefs.h"
+	"pldghost.h"
+	"pldnet.h"
+	"psndplat.h"
+	"ai_sight.h"
+	"los.h"
+	"bh_corpse.h"
+	"dxlog.h"
+	"ourasert.h"
+	"sequnces.h"
+	"showcmds.h"
+	"extents.h"
+	"savegame.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_deathvol.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_deathvol.h"
+	"dynamics.h"
+	"weapons.h"
+	"ourasert.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_deathvol.h
+
+1792531357 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_debri.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"comp_shp.h"
+	"load_shp.h"
+	"bh_types.h"
+	"bh_debri.h"
+	"bh_weap.h"
+	"inventry.h"
+	"psnd.h"
+	"plat_shp.h"
+	"particle.h"
+	"jsndsup.h"
+	"bh_alien.h"
+	"bh_marin.h"
+	"bh_corpse.h"
+	"ourasert.h"
+	"weapons.h"
+	"lighting.h"
+	"sfx.h"
+	"pldghost.h"
+	"avp_userprofile.h"
+	"savegame.h"
+	<math.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/jsndsup.h
+	"3dc.h"
+	"inline.h"
+	"module.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_dummy.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"dynamics.h"
+	"weapons.h"
+	"comp_shp.h"
+	"inventry.h"
+	"triggers.h"
+	"ourasert.h"
+	"pmove.h"
+	"pvisible.h"
+	"bh_swdor.h"
+	"bh_plift.h"
+	"load_shp.h"
+	"bh_weap.h"
+	"bh_debri.h"
+	"lighting.h"
+	"bh_lnksw.h"
+	"bh_binsw.h"
+	"pheromon.h"
+	"bh_pred.h"
+	"bh_agun.h"
+	"plat_shp.h"
+	"psnd.h"
+	"ai_sight.h"
+	"sequnces.h"
+	"huddefs.h"
+	"showcmds.h"
+	"sfx.h"
+	"bh_marin.h"
+	"bh_dummy.h"
+	"bh_far.h"
+	"targeting.h"
+	"dxlog.h"
+	"los.h"
+	"psndplat.h"
+	"extents.h"
+	"pldghost.h"
+	"pldnet.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_fan.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"track.h"
+	"bh_fan.h"
+	"dynamics.h"
+	"weapons.h"
+	"ourasert.h"
+	"plat_shp.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_fan.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_far.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pheromon.h"
+	"bh_pred.h"
+	"bh_alien.h"
+	"bh_far.h"
+	"pfarlocs.h"
+	"bh_gener.h"
+	"pvisible.h"
+	"bh_marin.h"
+	"weapons.h"
+	"showcmds.h"
+	"pldnet.h"
+	"ourasert.h"
+	"dxlog.h"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_fhug.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"game_statistics.h"
+	"dynblock.h"
+	"dynamics.h"
+	"comp_shp.h"
+	"bh_types.h"
+	"bh_pred.h"
+	"bh_fhug.h"
+	"bh_debri.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"weapons.h"
+	"psnd.h"
+	"psndplat.h"
+	"targeting.h"
+	"ourasert.h"
+	"showcmds.h"
+	"sfx.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_fhug.h
+	"bh_pred.h"
+	"sequnces.h"
+
+1792531357 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_gener.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_alien.h"
+	"bh_marin.h"
+	"pfarlocs.h"
+	"bh_gener.h"
+	"pvisible.h"
+	"pheromon.h"
+	"bh_far.h"
+	"pldghost.h"
+	"load_shp.h"
+	"ourasert.h"
+	"huddefs.h"
+	"showcmds.h"
+	"savegame.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_ldoor.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"weapons.h"
+	"comp_shp.h"
+	"inventry.h"
+	"triggers.h"
+	"dynblock.h"
+	"dynamics.h"
+	"ourasert.h"
+	"pmove.h"
+	"pvisible.h"
+	"bh_pred.h"
+	"bh_swdor.h"
+	"bh_ldoor.h"
+	"bh_plift.h"
+	"load_shp.h"
+	"lighting.h"
+	"bh_lnksw.h"
+	"bh_binsw.h"
+	"bh_lift.h"
+	"psnd.h"
+	"savegame.h"
+	"pldghost.h"
+
+1792532683 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_ldoor.h
+
+1792532683 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_lift.h
+
+1792531357 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_lift.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"weapons.h"
+	"comp_shp.h"
+	"inventry.h"
+	"triggers.h"
+	"huddefs.h"
+	"dynblock.h"
+	"dynamics.h"
+	"ourasert.h"
+	"pmove.h"
+	"pvisible.h"
+	"bh_swdor.h"
+	"load_shp.h"
+	"lighting.h"
+	"bh_lnksw.h"
+	"bh_binsw.h"
+	"bh_lift.h"
+	"psnd.h"
+	"pldghost.h"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_light.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_light.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pldghost.h"
+	"particle.h"
+	"ourasert.h"
+	"pvisible.h"
+	"plat_shp.h"
+	"bh_debri.h"
+	"equipmnt.h"
+	"savegame.h"
+
+1792532761 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_light.h
+
+1792531357 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_lnksw.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_lnksw.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pldghost.h"
+	"ourasert.h"
+	"pmove.h"
+	"pvisible.h"
+	"bh_binsw.h"
+	"plat_shp.h"
+	"psnd.h"
+	"inventry.h"
+	"savegame.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_ltfx.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"dynamics.h"
+	"plat_shp.h"
+	"ourasert.h"
+	"bh_ltfx.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_ltfx.h
+	"ltfx_exp.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/ltfx_exp.h
+
+1793408530 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_marin.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"lighting.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"pheromon.h"
+	"bh_gener.h"
+	"bh_far.h"
+	"bh_pred.h"
+	"bh_marin.h"
+	"bh_weap.h"
+	"bh_debri.h"
+	"bh_alien.h"
+	"psnd.h"
+	"weapons.h"
+	"load_shp.h"
+	"particle.h"
+	"sfx.h"
+	"huddefs.h"
+	"pldghost.h"
+	"pldnet.h"
+	"psndplat.h"
+	"ai_sight.h"
+	"los.h"
+	"bh_corpse.h"
+	"bh_dummy.h"
+	"scream.h"
+	"targeting.h"
+	"dxlog.h"
+	"ourasert.h"
+	"sequnces.h"
+	"showcmds.h"
+	"extents.h"
+	"avp_userprofile.h"
+	"hud.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/hud.h
+	"stratdef.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_mission.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"bh_types.h"
+	"bh_mission.h"
+	"ourasert.h"
+	"savegame.h"
+
+1792532761 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_mission.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_near.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"pheromon.h"
+	"bh_pred.h"
+	"bh_alien.h"
+	"bh_near.h"
+	"bh_far.h"
+	"bh_marin.h"
+	"pfarlocs.h"
+	"targeting.h"
+	"weapons.h"
+	"ourasert.h"
+	"psnd.h"
+	"psndplat.h"
+	"dxlog.h"
+	"showcmds.h"
+	"ai_sight.h"
+	"los.h"
+	"bh_gener.h"
+	"pldnet.h"
+	"particle.h"
+	"scream.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_pargen.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_pargen.h"
+	"dynamics.h"
+	"pvisible.h"
+	"particle.h"
+	"lighting.h"
+	"ourasert.h"
+	"savegame.h"
+
+1792532901 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_pargen.h
+	"track.h"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_plachier.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynamics.h"
+	"bh_plachier.h"
+	"ourasert.h"
+	"jsndsup.h"
+	"psndplat.h"
+	"savegame.h"
+
+1792532823 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_plachier.h
+	"bh_track.h"
+
+1792532823 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_track.h
+	"track.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_plift.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"triggers.h"
+	"dynblock.h"
+	"dynamics.h"
+	"showcmds.h"
+	"weapons.h"
+	"ourasert.h"
+	"bh_plift.h"
+	"pldnet.h"
+	"pldghost.h"
+	"savegame.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_pred.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pheromon.h"
+	"bh_types.h"
+	"pvisible.h"
+	"bh_far.h"
+	"bh_debri.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_alien.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"psnd.h"
+	"equipmnt.h"
+	"los.h"
+	"ai_sight.h"
+	"targeting.h"
+	"dxlog.h"
+	"showcmds.h"
+	"huddefs.h"
+	"pldghost.h"
+	"bh_gener.h"
+	"bh_corpse.h"
+	"bh_dummy.h"
+	"bh_agun.h"
+	"scream.h"
+	"game_statistics.h"
+	"ourasert.h"
+	"extents.h"
+	"savegame.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_queen.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"pheromon.h"
+	"bh_far.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_debri.h"
+	"ourasert.h"
+	"psnd.h"
+	"weapons.h"
+	"extents.h"
+	"sequnces.h"
+	"showcmds.h"
+	"targeting.h"
+	"dxlog.h"
+	<math.h>
+	"db.h"
+	"los.h"
+	"bh_track.h"
+	"scream.h"
+	"savegame.h"
+
+1792532941 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/db.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_rubberduck.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"load_shp.h"
+	"particle.h"
+	"bh_rubberduck.h"
+	"bh_weap.h"
+	"sfx.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_rubberduck.h
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_selfdest.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_selfdest.h"
+	"dynamics.h"
+	"weapons.h"
+	"particle.h"
+	"psnd.h"
+	"ourasert.h"
+	"savegame.h"
+
+1792532901 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_selfdest.h
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_snds.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_snds.h"
+	"dynblock.h"
+	"dynamics.h"
+	"ourasert.h"
+	"dxlog.h"
+	"psndplat.h"
+	"jsndsup.h"
+	"savegame.h"
+
+1792532941 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_snds.h
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"jsndsup.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_spcl.c
+	"3dc.h"
+	"bh_spcl.h"
+	"dynblock.h"
+	"ourasert.h"
+	"vision.h"
+	"plat_shp.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_spcl.h
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_swdor.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"triggers.h"
+	"psnd.h"
+	"ourasert.h"
+	"pvisible.h"
+	"bh_swdor.h"
+	"savegame.h"
+
+1792531357 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_track.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_track.h"
+	"dynamics.h"
+	"ourasert.h"
+	"plat_shp.h"
+	"pvisible.h"
+	"bh_debri.h"
+	"savegame.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_types.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bonusabilities.h"
+	"weapons.h"
+	"comp_shp.h"
+	"inventry.h"
+	"triggers.h"
+	"dynblock.h"
+	"dynamics.h"
+	"ourasert.h"
+	"pmove.h"
+	"bh_alien.h"
+	"bh_gener.h"
+	"pvisible.h"
+	"bh_pred.h"
+	"bh_xeno.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_fhug.h"
+	"bh_swdor.h"
+	"bh_ldoor.h"
+	"bh_plift.h"
+	"load_shp.h"
+	"bh_weap.h"
+	"bh_debri.h"
+	"lighting.h"
+	"bh_lnksw.h"
+	"bh_binsw.h"
+	"bh_spcl.h"
+	"bh_agun.h"
+	"bh_lift.h"
+	"bh_ltfx.h"
+	"bh_snds.h"
+	"bh_mission.h"
+	"bh_track.h"
+	"bh_fan.h"
+	"bh_rubberduck.h"
+	"bh_plachier.h"
+	"bh_light.h"
+	"bh_cable.h"
+	"bh_deathvol.h"
+	"bh_selfdest.h"
+	"bh_dummy.h"
+	"bh_pargen.h"
+	"bh_videoscreen.h"
+	"psnd.h"
+	"plat_shp.h"
+	"savegame.h"
+	"db.h"
+	"pldghost.h"
+	"bh_corpse.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bonusabilities.h
+
+1792532976 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_videoscreen.h
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_videoscreen.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_videoscreen.h"
+	"dynblock.h"
+	"dynamics.h"
+	"bh_debri.h"
+	"plat_shp.h"
+	"ourasert.h"
+	"pvisible.h"
+	"savegame.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_waypt.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pheromon.h"
+	"bh_types.h"
+	"pvisible.h"
+	"bh_far.h"
+	"bh_debri.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_alien.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"psnd.h"
+	"ourasert.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_weap.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"inventry.h"
+	"ourasert.h"
+	"bh_weap.h"
+	"bh_debri.h"
+	"weapons.h"
+	"dynblock.h"
+	"dynamics.h"
+	"lighting.h"
+	"bh_pred.h"
+	"bh_alien.h"
+	"bh_marin.h"
+	"bh_dummy.h"
+	"bh_rubberduck.h"
+	"pvisible.h"
+	"pheromon.h"
+	"psnd.h"
+	"psndplat.h"
+	"huddefs.h"
+	"ai_sight.h"
+	"targeting.h"
+	"game_statistics.h"
+	"particle.h"
+	"sfx.h"
+	"showcmds.h"
+	"savegame.h"
+	"los.h"
+	"detaillevels.h"
+	"pldghost.h"
+	"pldnet.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bh_xeno.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"bh_pred.h"
+	"bh_xeno.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"bh_debri.h"
+	"plat_shp.h"
+	"particle.h"
+	"ai_sight.h"
+	"sequnces.h"
+	"huddefs.h"
+	"showcmds.h"
+	"sfx.h"
+	"bh_marin.h"
+	"bh_far.h"
+	"pldghost.h"
+	"pheromon.h"
+	"targeting.h"
+	"dxlog.h"
+	"los.h"
+	"bh_alien.h"
+	"bh_corpse.h"
+	"bh_dummy.h"
+	"game_statistics.h"
+	"ourasert.h"
+	"psnd.h"
+	"savegame.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/bonusabilities.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"weapons.h"
+	"dynblock.h"
+	"avpview.h"
+	"load_shp.h"
+	"kzsort.h"
+	"kshape.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"ourasert.h"
+	"savegame.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/cdtrackselection.cpp
+	"3dc.h"
+	"ourasert.h"
+	"psndplat.h"
+	"dxlog.h"
+	"cd_player.h"
+	"avp_menus.h"
+	"gamedef.h"
+	"avp_envinfo.h"
+	"list_tem.hpp"
+
+1792534625 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/cd_player.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/list_tem.hpp
+	<stdio.h>
+	<typeinfo.h>
+	"mem3dc.h"
+	"fail.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/fail.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/cheatmodes.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"avp_userprofile.h"
+	"avp_menus.h"
+	"cheatmodes.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/cheatmodes.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/comp_map.c
+	"3dc.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/comp_shp.c
+	"3dc.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/consolelog.cpp
+	<stdlib.h>
+	<string.h>
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"debuglog.hpp"
+	"consolelog.hpp"
+	"bh_types.h"
+	"inventry.h"
+	"bh_alien.h"
+	"bh_pred.h"
+	"bh_xeno.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_fhug.h"
+	"bh_marin.h"
+	"bh_debri.h"
+	"bh_weap.h"
+	"bh_agun.h"
+	"weapons.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gameplat.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/debuglog.hpp
+	<stdio.h>
+	"debuglog.h"
+	"list_tem.hpp"
+	"dcontext.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/debuglog.h
+	<stdarg.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/dcontext.hpp
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/consolelog.hpp
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/deaths.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pheromon.h"
+	"bh_types.h"
+	"pvisible.h"
+	"bh_far.h"
+	"bh_debri.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_alien.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"psnd.h"
+	"equipmnt.h"
+	"los.h"
+	"ai_sight.h"
+	"targeting.h"
+	"dxlog.h"
+	"showcmds.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/decal.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"bh_pred.h"
+	"weapons.h"
+	"particle.h"
+	"pldnet.h"
+	"pldghost.h"
+	"kshape.h"
+	"d3d_render.h"
+	"hmodel.h"
+	"paintball.h"
+	"detaillevels.h"
+	"savegame.h"
+	"decal.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/d3d_render.h
+	"particle.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/paintball.h
+	"decal.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/cconvars.cpp
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"davehook.h"
+	"r2base.h"
+	"gadget.h"
+	"daemon.h"
+	"rentrntq.h"
+	"bh_types.h"
+	"consvar.hpp"
+	"conscmnd.hpp"
+	"equipmnt.h"
+	"weapons.h"
+	"bh_queen.h"
+	"bh_gener.h"
+	"dxlog.h"
+	"avp_menus.h"
+	"pheromon.h"
+	"showcmds.h"
+	"pfarlocs.h"
+	"ourasert.h"
+	"game_statistics.h"
+	"avp_envinfo.h"
+	"avp_userprofile.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/davehook.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/r2base.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/gadget.h
+	"projtext.h"
+	"r2base.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/projtext.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/daemon.h
+	"ourbool.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/ourbool.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/rentrntq.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/consvar.hpp
+	"conssym.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/conssym.hpp
+	"scstring.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/scstring.hpp
+	"refobj.hpp"
+	"ourbool.h"
+	"projtext.h"
+	"projfont.h"
+	"r2base.h"
+	"list_tem.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/refobj.hpp
+	"fail.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/projfont.h
+	"font.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/font.h
+	"projtext.h"
+	"aw.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/conscmnd.hpp
+	"conssym.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/davehook.cpp
+	"3dc.h"
+	"davehook.h"
+	"r2base.h"
+	"gadget.h"
+	"daemon.h"
+	"rentrntq.h"
+	"iofocus.h"
+	"font.h"
+	"hudgadg.hpp"
+	"consvar.hpp"
+	"conscmnd.hpp"
+	"missions.hpp"
+	"indexfnt.hpp"
+	"textexp.hpp"
+	"consvar.hpp"
+	"modcmds.hpp"
+	"trepgadg.hpp"
+	"consbind.hpp"
+	"consbtch.hpp"
+	"ourasert.h"
+	"avp_menus.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/iofocus.h
+	"ourbool.h"
+	"gadget.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/hudgadg.hpp
+	"gadget.h"
+	"module.h"
+	"gamedef.h"
+	"scstring.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/missions.hpp
+	"scstring.hpp"
+	"langenum.h"
+	"strtab.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/strtab.hpp
+	"projtext.h"
+	"langenum.h"
+	"scstring.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/indexfnt.hpp
+	"projfont.h"
+	"r2base.h"
+	"scstring.hpp"
+	"hud_layout.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/hud_layout.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/textexp.hpp
+	"scstring.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/modcmds.hpp
+	"module.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/trepgadg.hpp
+	"gadget.h"
+	"list_tem.hpp"
+	"scstring.hpp"
+	"reflist.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/reflist.hpp
+	"list_tem.hpp"
+	"refobj.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/consbind.hpp
+	"scstring.hpp"
+	"reflist.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/consbtch.hpp
+	"scstring.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/detaillevels.c
+	"detaillevels.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/dynamics.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"avpview.h"
+	"pvisible.h"
+	"extents.h"
+	"bh_marin.h"
+	"bh_pred.h"
+	"bh_alien.h"
+	"showcmds.h"
+	"pldghost.h"
+	"weapons.h"
+	"bh_track.h"
+	"bh_fan.h"
+	"detaillevels.h"
+	"dxlog.h"
+	"avp_userprofile.h"
+	"pfarlocs.h"
+	"particle.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/dynblock.c
+	"3dc.h"
+	"dynblock.h"
+	"ourasert.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/equipmnt.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"equipmnt.h"
+	"hmodel.h"
+	"sequnces.h"
+	"weapons.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/extents.c
+	"extents.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/game.c
+	"3dc.h"
+	<math.h>
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"game_statistics.h"
+	"messagehistory.h"
+	"dynblock.h"
+	"dynamics.h"
+	"bh_types.h"
+	"bh_alien.h"
+	"pheromon.h"
+	"pfarlocs.h"
+	"bh_gener.h"
+	"pvisible.h"
+	"lighting.h"
+	"bh_pred.h"
+	"bh_lift.h"
+	"avpview.h"
+	"psnd.h"
+	"psndplat.h"
+	"particle.h"
+	"sfx.h"
+	"fmv.h"
+	"version.h"
+	"bh_rubberduck.h"
+	"bh_marin.h"
+	"dxlog.h"
+	"avp_menus.h"
+	"avp_userprofile.h"
+	"davehook.h"
+	"cdtrackselection.h"
+	"savegame.h"
+	"ourasert.h"
+	"vision.h"
+	"cheat.h"
+	"pldnet.h"
+	"kshape.h"
+	"game.h"
+	"pentime.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/messagehistory.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/version.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/cdtrackselection.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/cheat.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/game.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/game_statistics.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"game_statistics.h"
+	"bh_types.h"
+	"bh_marin.h"
+	"bh_alien.h"
+	"bh_corpse.h"
+	"bh_debri.h"
+	"bh_weap.h"
+	"pldghost.h"
+	"opengl.h"
+	"ourasert.h"
+	"avp_envinfo.h"
+	"avp_userprofile.h"
+
+1793401223 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/gamecmds.cpp
+	"3dc.h"
+	"conscmnd.hpp"
+	"strutil.h"
+	"ourasert.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"showcmds.h"
+	"version.h"
+	"equipmnt.h"
+	"cheat.h"
+	"cd_player.h"
+	"dynblock.h"
+	"bh_rubberduck.h"
+	"pvisible.h"
+	"pldnet.h"
+	"lighting.h"
+	"paintball.h"
+	"decal.h"
+	"consolelog.hpp"
+	"psndplat.h"
+	"avp_menus.h"
+	"detaillevels.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/strutil.h
+	"projtext.h"
+	"ourbool.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/gamevars.cpp
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"davehook.h"
+	"r2base.h"
+	"gadget.h"
+	"daemon.h"
+	"rentrntq.h"
+	"consvar.hpp"
+	"conscmnd.hpp"
+	"equipmnt.h"
+	"pldnet.h"
+	"avp_menus.h"
+
+1793408530 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/hmodel.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pheromon.h"
+	"bh_types.h"
+	"pvisible.h"
+	"bh_far.h"
+	"bh_debri.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"psnd.h"
+	"load_shp.h"
+	"plat_shp.h"
+	"avp_userprofile.h"
+	"maths.h"
+	"opengl.h"
+	"ourasert.h"
+	"particle.h"
+	"kshape.h"
+	"sfx.h"
+	"dxlog.h"
+	<math.h>
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/maths.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/hud.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"huddefs.h"
+	"dynblock.h"
+	"weapons.h"
+	"psnd.h"
+	"psndplat.h"
+	"dynamics.h"
+	"particle.h"
+	"gadget.h"
+	"lighting.h"
+	"d3d_hud.h"
+	"frustum.h"
+	"pldghost.h"
+	"d3d_render.h"
+	"kshape.h"
+	"opengl.h"
+	"bh_ais.h"
+	"bh_alien.h"
+	"ourasert.h"
+	"vision.h"
+	"bonusabilities.h"
+	"avp_menus.h"
+	"showcmds.h"
+	"game_statistics.h"
+	"pldnet.h"
+	"avp_userprofile.h"
+	"hud.h"
+	"chnkload.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/d3d_hud.h
+	"langenum.h"
+
+1792533013 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chnkload.h
+	"system.h"
+	"equates.h"
+	"platform.h"
+	"shape.h"
+	"prototyp.h"
+	"module.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/inventry.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"bh_weap.h"
+	"equipmnt.h"
+	"dynblock.h"
+	"pvisible.h"
+	"language.h"
+	"huddefs.h"
+	"psnd.h"
+	"weapons.h"
+	"inventry.h"
+	"pldnet.h"
+	"pldghost.h"
+	"avp_userprofile.h"
+	"ourasert.h"
+
+1792527690 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/language.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"gamedef.h"
+	"langenum.h"
+	"language.h"
+	"huffman.hpp"
+	"strtab.hpp"
+	"ourasert.h"
+	"avp_menus.h"
+	"aroserror.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/huffman.hpp
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/lighting.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_weap.h"
+	"lighting.h"
+	"particle.h"
+	"dynamics.h"
+	"ourasert.h"
+	"savegame.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/load_shp.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"load_shp.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/los.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"avpview.h"
+	"ourasert.h"
+	"dxlog.h"
+	"showcmds.h"
+	"targeting.h"
+	"los.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/mempool.c
+	"ourasert.h"
+	"mem3dc.h"
+	"mempool.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/mempool.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/messagehistory.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"language.h"
+	"messagehistory.h"
+	"savegame.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/missions.cpp
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"missions.hpp"
+	"gadget.h"
+	"ourasert.h"
+	"paintball.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/movement.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pheromon.h"
+	"bh_types.h"
+	"pvisible.h"
+	"bh_far.h"
+	"bh_debri.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_alien.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"psnd.h"
+	"equipmnt.h"
+	"los.h"
+	"ai_sight.h"
+	"targeting.h"
+	"dxlog.h"
+	"showcmds.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/paintball.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"kshape.h"
+	"paintball.h"
+	"showcmds.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/particle.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"dynamics.h"
+	"particle.h"
+	"kshape.h"
+	"sfx.h"
+	"d3d_render.h"
+	"psndproj.h"
+	"lighting.h"
+	"bh_light.h"
+	"bh_xeno.h"
+	"pvisible.h"
+	"sphere.h"
+	"bh_rubberduck.h"
+	"bh_weap.h"
+	"weapons.h"
+	"decal.h"
+	"avpview.h"
+	"pldghost.h"
+	"detaillevels.h"
+	"psnd.h"
+	"kzsort.h"
+	"avp_userprofile.h"
+	"ourasert.h"
+	"savegame.h"
+	"los.h"
+	"chnkload.h"
+	"maths.h"
+	<math.h>
+	"frustum.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pfarlocs.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pheromon.h"
+	"bh_alien.h"
+	"bh_far.h"
+	"pfarlocs.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pheromon.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"ourasert.h"
+	"pheromon.h"
+	"pfarlocs.h"
+	"pvisible.h"
+	"bh_alien.h"
+	"bh_far.h"
+	"bh_gener.h"
+	"showcmds.h"
+	"pldghost.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/player.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"inventry.h"
+	"gameplat.h"
+	"dynblock.h"
+	"dynamics.h"
+	"comp_shp.h"
+	"weapons.h"
+	"vision.h"
+	"pheromon.h"
+	"avpview.h"
+	"particle.h"
+	"scream.h"
+	"savegame.h"
+	"game_statistics.h"
+	"pfarlocs.h"
+	"bh_ais.h"
+	"ourasert.h"
+	"psnd.h"
+	"psndplat.h"
+	"player.h"
+	"pldnet.h"
+	"pldghost.h"
+	"showcmds.h"
+	"bonusabilities.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/player.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pmove.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"gamedef.h"
+	"stratdef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"gameplat.h"
+	"bh_types.h"
+	"ourasert.h"
+	"comp_shp.h"
+	"pmove.h"
+	"usr_io.h"
+	"bh_far.h"
+	"triggers.h"
+	"pvisible.h"
+	"inventry.h"
+	"pfarlocs.h"
+	"weapons.h"
+	"pheromon.h"
+	"bh_pred.h"
+	"psnd.h"
+	"bh_weap.h"
+	"equipmnt.h"
+	"bh_agun.h"
+	"los.h"
+	"pldnet.h"
+	"bonusabilities.h"
+	"avp_menus.h"
+	"lighting.h"
+	"scream.h"
+	"player.h"
+	"avp_userprofile.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/psnd.c
+	<stdio.h>
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"psndplat.h"
+	"ourasert.h"
+	"db.h"
+	"showcmds.h"
+	"avp_userprofile.h"
+	"cdplayer.h"
+	"savegame.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/cdplayer.h
+
+1792969958 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/psndproj.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"inventry.h"
+	"weapons.h"
+	"psnd.h"
+	"psndplat.h"
+	"avp_menus.h"
+	"scream.h"
+	"ourasert.h"
+	"ffstdio.h"
+	"db.h"
+	"dxlog.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/ffstdio.h
+	<stdio.h>
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/pvisible.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"bh_alien.h"
+	"pvisible.h"
+	"bh_pred.h"
+	"bh_xeno.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_fhug.h"
+	"bh_debri.h"
+	"bh_plachier.h"
+	"plat_shp.h"
+	"psnd.h"
+	"lighting.h"
+	"pldnet.h"
+	"bh_dummy.h"
+	"bh_videoscreen.h"
+	"bh_plift.h"
+	"bh_light.h"
+	"weapons.h"
+	"bh_agun.h"
+	"bh_corpse.h"
+	"chnkload.h"
+	"pldghost.h"
+	"pfarlocs.h"
+	"ourasert.h"
+	"savegame.h"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/savegame.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"bh_alien.h"
+	"pvisible.h"
+	"bh_pred.h"
+	"bh_xeno.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"bh_fhug.h"
+	"bh_debri.h"
+	"bh_plachier.h"
+	"plat_shp.h"
+	"psnd.h"
+	"lighting.h"
+	"pldnet.h"
+	"bh_dummy.h"
+	"bh_videoscreen.h"
+	"bh_plift.h"
+	"bh_ldoor.h"
+	"avp_menus.h"
+	"game_statistics.h"
+	"avp_userprofile.h"
+	"huddefs.h"
+	"fmv.h"
+	"savegame.h"
+	"huffman.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/scream.cpp
+	"unaligned.h"
+	"3dc.h"
+	"ourasert.h"
+	"psndplat.h"
+	"jsndsup.h"
+	"mempool.h"
+	"scream.h"
+	"dxlog.h"
+	"avp_menus.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/secstats.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"comp_shp.h"
+	"dynblock.h"
+	"dynamics.h"
+	"pfarlocs.h"
+	"pheromon.h"
+	"bh_types.h"
+	"pvisible.h"
+	"bh_far.h"
+	"bh_debri.h"
+	"bh_pred.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_marin.h"
+	"lighting.h"
+	"bh_weap.h"
+	"weapons.h"
+	"psnd.h"
+	"load_shp.h"
+	"ourasert.h"
+	"particle.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/sfx.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"dynblock.h"
+	"particle.h"
+	"sfx.h"
+	"detaillevels.h"
+	"bh_types.h"
+	"bh_ais.h"
+	"bh_pred.h"
+	"bh_corpse.h"
+	"lighting.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/shapes/cube.c
+	<stdio.h>
+	<inttypes.h>
+	"system.h"
+	"shape.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/stratdef.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"ourasert.h"
+	"bh_alien.h"
+	"bh_marin.h"
+	"bh_xeno.h"
+	"bh_corpse.h"
+	"bh_debri.h"
+	"pldnet.h"
+	"maths.h"
+
+1792526451 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/consbind.cpp
+	<ctype.h>
+	"3dc.h"
+	"consbind.hpp"
+	"iofocus.h"
+	"scstring.hpp"
+	"strtab.hpp"
+	"ourasert.h"
+	"avp_menus.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/consbtch.cpp
+	<ctype.h>
+	"3dc.h"
+	"consbtch.hpp"
+	"reflist.hpp"
+	"ourasert.h"
+
+1792533041 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/coordstr.cpp
+	"3dc.h"
+	"inline.h"
+	"coordstr.hpp"
+	"davemcro.h"
+	"scrobj.hpp"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/coordstr.hpp
+	"daemon.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/daemon.cpp
+	"3dc.h"
+	"daemon.h"
+	"inline.h"
+	"scrobj.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/indexfnt.cpp
+	"3dc.h"
+	"inline.h"
+	"indexfnt.hpp"
+	"d3d_hud.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/r2base.cpp
+	"3dc.h"
+	"r2base.h"
+	"inline.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/r2pos666.cpp
+	"3dc.h"
+	"r2pos666.hpp"
+	"inline.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/r2pos666.hpp
+	"r2base.h"
+	"daemon.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/reflist.cpp
+	"3dc.h"
+	"reflist.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/refobj.cpp
+	"3dc.h"
+	"refobj.hpp"
+	"dcontext.hpp"
+	"list_tem.hpp"
+	"ourasert.h"
+	"debuglog.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/rentrntq.cpp
+	"3dc.h"
+	"gadget.h"
+	"fixer.h"
+	"rentrntq.h"
+	"iofocus.h"
+	"hudgadg.hpp"
+	"textin.hpp"
+	"consbind.hpp"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/textin.hpp
+	"textexp.hpp"
+	"list_tem.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/scstring.cpp
+	"3dc.h"
+	"scstring.hpp"
+	"strutil.h"
+	"indexfnt.hpp"
+	"dcontext.hpp"
+	"ourasert.h"
+	"teletype.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/teletype.hpp
+	"gadget.h"
+	"ourbool.h"
+	"scstring.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/strtab.cpp
+	"3dc.h"
+	"strtab.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/strutil.c
+	<ctype.h>
+	"3dc.h"
+	"strutil.h"
+	"hhfile.h"
+	"hhcolour.h"
+	"daveserr.h"
+	"inouttxt.h"
+	"menutxt.h"
+	"davelog.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/trig666.cpp
+	"3dc.h"
+	"trig666.hpp"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/trig666.hpp
+	"daemon.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/wrapstr.cpp
+	"3dc.h"
+	"wrapstr.hpp"
+	"strutil.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/support/wrapstr.hpp
+	"scstring.hpp"
+	"indexfnt.hpp"
+	"reflist.hpp"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/targeting.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"inventry.h"
+	"comp_shp.h"
+	"load_shp.h"
+	"huddefs.h"
+	"ourasert.h"
+	"dynblock.h"
+	"dynamics.h"
+	"lighting.h"
+	"pvisible.h"
+	"bh_alien.h"
+	"bh_pred.h"
+	"bh_xeno.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_fhug.h"
+	"bh_marin.h"
+	"bh_debri.h"
+	"bh_weap.h"
+	"bh_agun.h"
+	"weapons.h"
+	"avpview.h"
+	"psnd.h"
+	"vision.h"
+	"plat_shp.h"
+	"particle.h"
+	"psndproj.h"
+	"showcmds.h"
+	"los.h"
+	<math.h>
+	"paintball.h"
+	"pldghost.h"
+	"pldnet.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/track.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"dynblock.h"
+	"stratdef.h"
+	"gamedef.h"
+	"track.h"
+	"jsndsup.h"
+	"psndplat.h"
+	"ourasert.h"
+	"mempool.h"
+	"db.h"
+	<math.h>
+	"savegame.h"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/triggers.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"dynblock.h"
+	"bh_types.h"
+	"huddefs.h"
+	"triggers.h"
+	"pldnet.h"
+	"los.h"
+	"ourasert.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/weapons.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"inventry.h"
+	"comp_shp.h"
+	"load_shp.h"
+	"huddefs.h"
+	"ourasert.h"
+	"dynblock.h"
+	"dynamics.h"
+	"lighting.h"
+	"pvisible.h"
+	"bh_alien.h"
+	"bh_pred.h"
+	"bh_xeno.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_fhug.h"
+	"bh_marin.h"
+	"bh_debri.h"
+	"bh_weap.h"
+	"bh_agun.h"
+	"bh_light.h"
+	"bh_corpse.h"
+	"bh_ais.h"
+	"bh_videoscreen.h"
+	"bh_track.h"
+	"weapons.h"
+	"avpview.h"
+	"psnd.h"
+	"vision.h"
+	"plat_shp.h"
+	"particle.h"
+	"psndproj.h"
+	"psndplat.h"
+	"showcmds.h"
+	"projload.hpp"
+	"pldghost.h"
+	"pldnet.h"
+	"los.h"
+	"kshape.h"
+	"targeting.h"
+	"extents.h"
+	"scream.h"
+	"avp_userprofile.h"
+	"savegame.h"
+
+1792533579 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/projload.hpp
+	"chnkload.h"
+	"hmodel.h"
+	"hierchnk.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/hierchnk.hpp
+	"chunk.hpp"
+	"list_tem.hpp"
+	"chnktype.hpp"
+
+1792533404 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chunk.hpp
+	"fixer.h"
+	"3dc.h"
+	"mem3dc.h"
+	"inline.h"
+	"module.h"
+	"list_tem.hpp"
+	"list_tem.hpp"
+
+1792533404 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chnktype.hpp
+	"3dc.h"
+	"list_tem.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/avpchunk.cpp
+	"avpchunk.hpp"
+	"md5.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/avpchunk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"envchunk.hpp"
+	"sndchunk.hpp"
+
+1792533579 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/envchunk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"mishchnk.hpp"
+
+1792533496 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/mishchnk.hpp
+	<time.h>
+	"chunk.hpp"
+	"chnktype.hpp"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/sndchunk.hpp
+	"chnktype.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/md5.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/cheat.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"huddefs.h"
+	"language.h"
+	"cheat.h"
+	"weapons.h"
+	"equipmnt.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/chtcodes.cpp
+	"3dc.h"
+	"scstring.hpp"
+	"gadget.h"
+	"strutil.h"
+	"module.h"
+	"stratdef.h"
+	"dynblock.h"
+	"equipmnt.h"
+	"rootgadg.hpp"
+	"hudgadg.hpp"
+	"modcmds.hpp"
+	"bh_types.h"
+	"consvar.hpp"
+	"missions.hpp"
+	"textexp.hpp"
+	"refobj.hpp"
+	"debuglog.hpp"
+	"trepgadg.hpp"
+	"conscmnd.hpp"
+	"consbind.hpp"
+	"weapons.h"
+	"avp_menus.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/rootgadg.hpp
+	"gadget.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/d3d_hud.cpp
+	"3dc.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"hudgfx.h"
+	"huddefs.h"
+	"kshape.h"
+	"chnktexi.h"
+	"hud_layout.h"
+	"language.h"
+	"r2base.h"
+	"pcmenus.h"
+	"chnkload.hpp"
+	"d3d_hud.h"
+	"ourasert.h"
+	"vision.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/hudgfx.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chnktexi.h
+
+1792533936 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/pcmenus.h
+
+1792534074 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chnkload.hpp
+	"chnkload.h"
+	"chunk.hpp"
+	"shpchunk.hpp"
+	"obchunk.hpp"
+	"bmpnames.hpp"
+	"projload.hpp"
+
+1792533985 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/shpchunk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"mishchnk.hpp"
+
+1792533985 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/obchunk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"mishchnk.hpp"
+
+1792534074 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/bmpnames.hpp
+	"chunk.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/ddplat.cpp
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"dxlog.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"equipmnt.h"
+	"huddefs.h"
+	"hudgfx.h"
+	"font.h"
+	"kshape.h"
+	"chnktexi.h"
+	"awtexld.h"
+	"ffstdio.h"
+	"d3d_hud.h"
+	"r2base.h"
+	"indexfnt.hpp"
+	"projload.hpp"
+	"chnkload.hpp"
+	"pcmenus.h"
+	"hud_data.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/awtexld.h
+	"aw.h"
+	<windows.h>
+	<d3d.h>
+	"aw.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/hud_data.h
+
+1792695693 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/endianio.c
+	"endianio.h"
+	"fixer.h"
+
+1792696000 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/endianio.h
+	<stdio.h>
+	"fixer.h"
+	"datatype.h"
+
+1792695965 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/datatype.h
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/ffread.cpp
+	<windows.h>
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+	"ffread.hpp"
+	"fail.h"
+
+1792533496 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/ffread.hpp
+	"fixer.h"
+	<stddef.h>
+	"list_tem.hpp"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/ffstdio.cpp
+	<errno.h>
+	<string.h>
+	"ffstdio.h"
+	"ffread.hpp"
+	"list_tem.hpp"
+	"dxlog.h"
+	"system.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_envinfo.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"avp_envinfo.h"
+	"avp_userprofile.h"
+	"avp_mp_config.h"
+	"pldnet.h"
+
+1792533802 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_mp_config.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_intro.cpp
+	"3dc.h"
+	"inline.h"
+	"avp_menus.h"
+	"avp_intro.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_intro.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_menudata.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"platform.h"
+	"gamedef.h"
+	"usr_io.h"
+	"avp_menus.h"
+	"avp_userprofile.h"
+	"gammacontrol.h"
+	"bh_types.h"
+	"pldnet.h"
+	"avp_mp_config.h"
+	"detaillevels.h"
+	"cd_player.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gammacontrol.h
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_menus.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"cheatmodes.h"
+	"net.h"
+	"opengl.h"
+	"pldnet.h"
+	"avp_menudata.h"
+	"avp_menus.h"
+	"avp_envinfo.h"
+	"hud_layout.h"
+	"avp_userprofile.h"
+	"huffman.hpp"
+	"hudgfx.h"
+	"usr_io.h"
+	"ourasert.h"
+	"iofocus.h"
+	<time.h>
+	"gammacontrol.h"
+	"avp_mp_config.h"
+	"psnd.h"
+	"savegame.h"
+	"game.h"
+	"avp_menugfx.hpp"
+	"avp_intro.h"
+	"fmv.h"
+	<sys/types.h>
+	<sys/stat.h>
+
+1792533936 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/net.h
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_menudata.h
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_mp_config.cpp
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"pldnet.h"
+	"avp_mp_config.h"
+	"avp_envinfo.h"
+	"avp_menus.h"
+	"list_tem.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/frontend/avp_userprofile.cpp
+	"list_tem.hpp"
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"avp_userprofile.h"
+	"language.h"
+	"gammacontrol.h"
+	"psnd.h"
+	"cd_player.h"
+	"ourasert.h"
+	"pldnet.h"
+	<time.h>
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/ahudgadg.cpp
+	"3dc.h"
+	"ahudgadg.hpp"
+	"trepgadg.hpp"
+	"t_ingadg.hpp"
+	"iofocus.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/ahudgadg.hpp
+	"hudgadg.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/t_ingadg.hpp
+	"gadget.h"
+	"textin.hpp"
+	"scstring.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/conscmnd.cpp
+	"3dc.h"
+	"conscmnd.hpp"
+	"strutil.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/conssym.cpp
+	"3dc.h"
+	"conssym.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/consvar.cpp
+	"3dc.h"
+	"consvar.hpp"
+	"strutil.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/gadget.cpp
+	"3dc.h"
+	"gadget.h"
+	"rootgadg.hpp"
+	"r2base.h"
+	"hudgadg.hpp"
+	"ahudgadg.hpp"
+	"indexfnt.hpp"
+	"trepgadg.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/hudgadg.cpp
+	"3dc.h"
+	"hudgadg.hpp"
+	"ahudgadg.hpp"
+	"trepgadg.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/rootgadg.cpp
+	"3dc.h"
+	"rootgadg.hpp"
+	"hudgadg.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/t_ingadg.cpp
+	"3dc.h"
+	"t_ingadg.hpp"
+	"indexfnt.hpp"
+	"coordstr.hpp"
+	"inline.h"
+	"trepgadg.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/teletype.cpp
+	"3dc.h"
+	"teletype.hpp"
+	"daemon.h"
+	"inline.h"
+	"trepgadg.hpp"
+	"ourasert.h"
+	"indexfnt.hpp"
+	"psnd.h"
+	"psndproj.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/textexp.cpp
+	"3dc.h"
+	"textexp.hpp"
+	"strutil.h"
+	"textin.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/textin.cpp
+	<ctype.h>
+	"3dc.h"
+	"textin.hpp"
+	"conssym.hpp"
+	"strutil.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gadgets/trepgadg.cpp
+	"3dc.h"
+	"daemon.h"
+	"trepgadg.hpp"
+	"teletype.hpp"
+	"coordstr.hpp"
+	"trig666.hpp"
+	"indexfnt.hpp"
+	"wrapstr.hpp"
+	"inline.h"
+	"iofocus.h"
+	"consolelog.hpp"
+	"rootgadg.hpp"
+	"hudgadg.hpp"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/gammacontrol.cpp
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"gammacontrol.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/hierplace.cpp
+	"hierplace.hpp"
+	"md5.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/hierplace.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/iofocus.cpp
+	"3dc.h"
+	"iofocus.h"
+	"gadget.h"
+	"psnd.h"
+	"avp_menus.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/jsndsup.cpp
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"ourasert.h"
+	"psndplat.h"
+	"list_tem.hpp"
+	"jsndsup.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/kzsort.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"kzsort.h"
+	"kshape.h"
+	"pldnet.h"
+	"avpview.h"
+	"d3d_render.h"
+	"ourasert.h"
+	"avp_userprofile.h"
+	"pentime.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/langplat.c
+	"3dc.h"
+	"inline.h"
+	"language.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/modcmds.cpp
+	<ctype.h>
+	"3dc.h"
+	"gadget.h"
+	"module.h"
+	"modcmds.hpp"
+	"stratdef.h"
+	"dynblock.h"
+	"ourasert.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/npcsetup.cpp
+	"npcsetup.h"
+	"ourasert.h"
+	"list_tem.hpp"
+	"chunkpal.hpp"
+	"chnkload.hpp"
+	"projload.hpp"
+	"envchunk.hpp"
+	"avpchunk.hpp"
+	"strachnk.hpp"
+	"gamedef.h"
+	"progress_bar.h"
+	"scream.h"
+	"avp_menus.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/npcsetup.h
+	"chnkload.h"
+
+1792534375 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chunkpal.hpp
+	"chunk.hpp"
+	"bmpnames.hpp"
+
+1792534375 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/strachnk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"ltfx_exp.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/progress_bar.h
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/objsetup.cpp
+	<stdlib.h>
+	"list_tem.hpp"
+	"chnkload.hpp"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"envchunk.hpp"
+	"obchunk.hpp"
+	"ltchunk.hpp"
+	"avpchunk.hpp"
+	"strachnk.hpp"
+	"sndchunk.hpp"
+	"pvisible.h"
+	"objsetup.hpp"
+	"hierplace.hpp"
+	"bh_gener.h"
+	"bh_swdor.h"
+	"bh_ldoor.h"
+	"bh_plift.h"
+	"bh_pred.h"
+	"bh_fhug.h"
+	"bh_marin.h"
+	"bh_paq.h"
+	"bh_queen.h"
+	"bh_alien.h"
+	"bh_xeno.h"
+	"bh_binsw.h"
+	"bh_lnksw.h"
+	"bh_spcl.h"
+	"bh_agun.h"
+	"bh_lift.h"
+	"bh_ltfx.h"
+	"bh_snds.h"
+	"bh_mission.h"
+	"bh_track.h"
+	"bh_fan.h"
+	"bh_light.h"
+	"bh_plachier.h"
+	"bh_cable.h"
+	"bh_deathvol.h"
+	"bh_selfdest.h"
+	"bh_pargen.h"
+	"bh_videoscreen.h"
+	"missions.hpp"
+	"track.h"
+	"psndplat.h"
+	"dxlog.h"
+	"mempool.h"
+	"db.h"
+	"pldnet.h"
+	"3dc.h"
+
+1792534465 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/ltchunk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/objsetup.hpp
+	"envchunk.hpp"
+	"obchunk.hpp"
+	"3dc.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/pathchnk.cpp
+	"pathchnk.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/pathchnk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"obchunk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/platsup.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"gameplat.h"
+	"gamedef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"ourasert.h"
+
+1792531357 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/pldghost.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"bh_debri.h"
+	"bh_alien.h"
+	"bh_pred.h"
+	"bh_marin.h"
+	"pvisible.h"
+	"pldnet.h"
+	"pldghost.h"
+	"lighting.h"
+	"psnd.h"
+	"load_shp.h"
+	"projload.hpp"
+	"particle.h"
+	"sfx.h"
+	"psndplat.h"
+	"bh_corpse.h"
+	"bh_weap.h"
+	"showcmds.h"
+	"weapons.h"
+	"ourasert.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/pldnet.c
+	<ctype.h>
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"dynblock.h"
+	"dynamics.h"
+	"bh_debri.h"
+	"pvisible.h"
+	"bh_plift.h"
+	"pldnet.h"
+	"pldghost.h"
+	"equipmnt.h"
+	"weapons.h"
+	"multmenu.h"
+	"bh_gener.h"
+	"bh_lnksw.h"
+	"bh_track.h"
+	"psnd.h"
+	"kshape.h"
+	"pfarlocs.h"
+	"avpview.h"
+	"net.h"
+	"los.h"
+	"maths.h"
+	"opengl.h"
+	"bh_pred.h"
+	"bh_alien.h"
+	"bh_marin.h"
+	"bh_binsw.h"
+	"bh_agun.h"
+	"bh_weap.h"
+	"bh_corpse.h"
+	"bh_light.h"
+	"scream.h"
+	"targeting.h"
+	"iofocus.h"
+	"ourasert.h"
+	"showcmds.h"
+	"db.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/multmenu.h
+
+1793053835 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/progress_bar.cpp
+	"3dc.h"
+	"module.h"
+	"platform.h"
+	"kshape.h"
+	"progress_bar.h"
+	"chnktexi.h"
+	"awtexld.h"
+	"ffstdio.h"
+	"inline.h"
+	"gamedef.h"
+	"psnd.h"
+	"language.h"
+	"avp_menus.h"
+
+1793321714 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/projload.cpp
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"list_tem.hpp"
+	"chnkload.hpp"
+	"projload.hpp"
+	"gamedef.h"
+	"shpchunk.hpp"
+	"envchunk.hpp"
+	"obchunk.hpp"
+	"chunkpal.hpp"
+	"bmpnames.hpp"
+	"chnktexi.h"
+	"strachnk.hpp"
+	"animchnk.hpp"
+	"ltchunk.hpp"
+	"avpchunk.hpp"
+	"pathchnk.hpp"
+	"objsetup.hpp"
+	"npcsetup.h"
+	"sprchunk.hpp"
+	"pcmenus.h"
+	<math.h>
+	"wpchunk.hpp"
+	"hierchnk.hpp"
+	"animobs.hpp"
+	"sequnces.h"
+	"fragchnk.hpp"
+	"hierplace.hpp"
+	"pfarlocs.h"
+	"progress_bar.h"
+	"stratdef.h"
+	"equipmnt.h"
+	"bh_ais.h"
+	"bh_types.h"
+	"bh_plachier.h"
+	"bh_marin.h"
+	"pvisible.h"
+	"psndplat.h"
+	"jsndsup.h"
+	"avpreg.hpp"
+	"ffstdio.h"
+	"decal.h"
+	"mempool.h"
+	"db.h"
+	"pldnet.h"
+	"inventry.h"
+
+1792534465 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/animchnk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+
+1792534505 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/sprchunk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/wpchunk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"obchunk.hpp"
+
+1792534535 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/animobs.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/fragchnk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/avpreg.hpp
+
+1792695660 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/scrshot.cpp
+	"3dc.h"
+	"bmp2.h"
+	"endianio.h"
+	"string.hpp"
+	"scrshot.hpp"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"ourasert.h"
+	"frontend/avp_menus.h"
+
+1792696132 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/bmp2.h
+	"datatype.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/string.hpp
+	<stddef.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/scrshot.hpp
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/strachnk.cpp
+	"strachnk.hpp"
+	"md5.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/system.c
+	"3dc.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"bh_marin.h"
+	"game.h"
+	"gameplat.h"
+	"lighting.h"
+	"messagehistory.h"
+	"particle.h"
+	"pldnet.h"
+	"ourasert.h"
+	"bh_far.h"
+	"pheromon.h"
+	"huddefs.h"
+	"hud.h"
+	"fmv.h"
+	"font.h"
+	"bh_gener.h"
+	"pvisible.h"
+	"system.h"
+	"projload.hpp"
+	"chnkload.hpp"
+	"ffstdio.h"
+	"avp_menus.h"
+	"cdplayer.h"
+	"psndplat.h"
+	"progress_bar.h"
+	"bh_rubberduck.h"
+	"game_statistics.h"
+	"cdtrackselection.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/usr_io.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"gameplat.h"
+	"bh_types.h"
+	"ourasert.h"
+	"comp_shp.h"
+	"pmove.h"
+	"usr_io.h"
+	"hud.h"
+	"messagehistory.h"
+	"iofocus.h"
+	"paintball.h"
+	"ahudgadg.hpp"
+	"avp_menus.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/avp/win95/vision.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"huddefs.h"
+	"opengl.h"
+	"psnd.h"
+	"psndplat.h"
+	"ourasert.h"
+	"vision.h"
+	"frustum.h"
+	"avpview.h"
+	"game_statistics.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/cdplayer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL.h"
+	"fixer.h"
+	"win95/cd_player.h"
+	"cdplayer.h"
+
+1787355397 /usr/local/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1787355397 /usr/local/include/SDL/SDL_platform.h
+
+1787355397 /usr/local/include/SDL/begin_code.h
+
+1787355397 /usr/local/include/SDL/close_code.h
+
+1787355397 /usr/local/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<sys/byteorder.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_keysym.h
+
+1787355397 /usr/local/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1787355397 /usr/local/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787355397 /usr/local/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/fmv.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"fmv.h"
+	"avp_menus.h"
+	"avp_userprofile.h"
+	"oglfunc.h"
+	"ourasert.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/oglfunc.h
+	<windows.h>
+	"SDL_version.h"
+	"SDL_opengles2.h"
+	"SDL_opengl.h"
+
+1787355397 /usr/local/include/SDL/SDL_opengl.h
+	"SDL_config.h"
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<gl.h>
+	<glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/frustum.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"kshape.h"
+	"kzsort.h"
+	"frustum.h"
+	"particle.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/kshape.c
+	"3dc.h"
+	<math.h>
+	"module.h"
+	"inline.h"
+	"stratdef.h"
+	"gamedef.h"
+	"maths.h"
+	"kshape.h"
+	"kzsort.h"
+	"frustum.h"
+	"ourasert.h"
+	"equipmnt.h"
+	"bh_pred.h"
+	"bh_marin.h"
+	"bh_corpse.h"
+	"bh_debri.h"
+	"bh_weap.h"
+	"bh_types.h"
+	"pldghost.h"
+	"particle.h"
+	"vision.h"
+	"sfx.h"
+	"d3d_render.h"
+	"opengl.h"
+	"avpview.h"
+	"sphere.h"
+	"detaillevels.h"
+	"avp_userprofile.h"
+	"hud.h"
+	"weapons.h"
+
+1793461810 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<SDL.h>
+	"oglfunc.h"
+	<getopt.h>
+	"fixer.h"
+	"3dc.h"
+	"platform.h"
+	"inline.h"
+	"gamedef.h"
+	"gameplat.h"
+	"ffstdio.h"
+	"vision.h"
+	"comp_shp.h"
+	"avp_envinfo.h"
+	"stratdef.h"
+	"bh_types.h"
+	"avp_userprofile.h"
+	"pldnet.h"
+	"cdtrackselection.h"
+	"gammacontrol.h"
+	"opengl.h"
+	"avp_menus.h"
+	"avp_mp_config.h"
+	"npcsetup.h"
+	"cdplayer.h"
+	"hud.h"
+	"player.h"
+	"mempool.h"
+	"avpview.h"
+	"consbind.hpp"
+	"progress_bar.h"
+	"scrshot.hpp"
+	"version.h"
+	"fmv.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/map.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/mathline.c
+	<math.h>
+	"3dc.h"
+	"mathline.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/md5.c
+	<string.h>
+	"md5.h"
+
+1793301888 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/mem3dc.c
+	"3dc.h"
+	<string.h>
+	"mem3dc.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/mem3dcpp.cpp
+	"mem3dc.h"
+
+1792446344 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/menus.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL.h"
+	"fixer.h"
+	"strtab.hpp"
+	"3dc.h"
+	"inline.h"
+	"awtexld.h"
+	"chnktexi.h"
+	"hud_layout.h"
+	"avp_menus.h"
+	"ourasert.h"
+	"ffstdio.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/module.c
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"bh_types.h"
+	"pvisible.h"
+	"pfarlocs.h"
+	"avpview.h"
+	"ourasert.h"
+	"pldghost.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/morph.c
+	"3dc.h"
+	"inline.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/net.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"fixer.h"
+	"3dc.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"equipmnt.h"
+	"pldnet.h"
+	"net.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/object.c
+	"3dc.h"
+	"module.h"
+	"stratdef.h"
+	"sfx.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/oglfunc.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL.h"
+	"oglfunc.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/opengl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"oglfunc.h"
+	"fixer.h"
+	"3dc.h"
+	"platform.h"
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"projfont.h"
+	"kshape.h"
+	"prototyp.h"
+	"frustum.h"
+	"lighting.h"
+	"bh_types.h"
+	"showcmds.h"
+	"d3d_hud.h"
+	"hud_layout.h"
+	"avp_userprofile.h"
+	"aw.h"
+	"opengl.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/shpanim.c
+	"3dc.h"
+	"ourasert.h"
+
+1792976123 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/openal.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<AL/al.h>
+	<AL/alc.h>
+	"al.h"
+	"alc.h"
+	"fixer.h"
+	"3dc.h"
+	"platform.h"
+	"inline.h"
+	"psndplat.h"
+	"gamedef.h"
+	"avpview.h"
+	"ffstdio.h"
+	"dynamics.h"
+	"dynblock.h"
+	"stratdef.h"
+	<AL/eax.h>
+
+1681242383 /usr/include/AL//al.h
+
+1681242383 /usr/include/AL//alc.h
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/sphere.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"sphere.h"
+	"ourasert.h"
+
+1792696665 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/stubs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fixer.h"
+	"3dc.h"
+	"platform.h"
+	"psndplat.h"
+	"module.h"
+	"stratdef.h"
+	"avp_userprofile.h"
+	"projfont.h"
+	"savegame.h"
+	"pldnet.h"
+	"kshape.h"
+	"d3d_hud.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/tables.c
+	"system.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/vdb.c
+	"3dc.h"
+	"inline.h"
+
+1793400213 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/version.c
+	"version.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/animchnk.cpp
+	"animchnk.hpp"
+
+1793402973 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/animobs.cpp
+	"hierchnk.hpp"
+	"animobs.hpp"
+	"list_tem.hpp"
+	<math.h>
+
+1792534796 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/awbmpld.cpp
+	"fixer.h"
+	"db.h"
+	"awtexld.hpp"
+
+1792534796 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/awtexld.hpp
+	"awtexld.h"
+	"media.hpp"
+	"db.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/media.hpp
+	<stdio.h>
+	<limits.h>
+	<string.h>
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/awiffld.cpp
+	"fixer.h"
+	"db.h"
+	"awtexld.hpp"
+	"iff.hpp"
+	"iff_ilbm.hpp"
+	"list_tem.hpp"
+	<limits.h>
+
+1792695936 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/iff.hpp
+	"fixer.h"
+	<stdio.h>
+	"media.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/iff_ilbm.hpp
+	"iff.hpp"
+
+1792534901 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/awpnmld.cpp
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdarg.h>
+	"fixer.h"
+	"db.h"
+	"awtexld.hpp"
+
+1792535026 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/awtexld.cpp
+	"fixer.h"
+	"db.h"
+	"hash_tem.hpp"
+	"iff.hpp"
+	"list_tem.hpp"
+	<stdlib.h>
+	<stdarg.h>
+	<limits.h>
+	"media.hpp"
+	"awtexld.h"
+	"awtexld.hpp"
+	<typeinfo.h>
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/hash_tem.hpp
+	<stddef.h>
+	<ctype.h>
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/bmpnames.cpp
+	<string.h>
+	"bmpnames.hpp"
+	"mishchnk.hpp"
+	"ourasert.h"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chnkload.cpp
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"string.hpp"
+	"list_tem.hpp"
+	"chnkload.hpp"
+	"oechunk.h"
+	"stratdef.h"
+	"shpchunk.hpp"
+	"envchunk.hpp"
+	"obchunk.hpp"
+	"chunkpal.hpp"
+	"bmpnames.hpp"
+	"ltchunk.hpp"
+	"chnktexi.h"
+	"sprchunk.hpp"
+	"gsprchnk.hpp"
+	"animchnk.hpp"
+	"fragchnk.hpp"
+	"jsndsup.h"
+	"mempool.h"
+	<math.h>
+
+1792534966 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/oechunk.h
+	"chunk.hpp"
+	"obchunk.hpp"
+
+1792534966 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/gsprchnk.hpp
+	"chunk.hpp"
+	"mishchnk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chnktexi.cpp
+	<string.h>
+	"fixer.h"
+	"string.hpp"
+	"db.h"
+	"awtexld.h"
+	"chnkload.hpp"
+	"chunkpal.hpp"
+	"ffstdio.h"
+	"chnktexi.h"
+	<typeinfo.h>
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chnktype.cpp
+	"chunk.hpp"
+	<math.h>
+	"chnktype.hpp"
+	"ourasert.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chunk.cpp
+	<string.h>
+	"chunk.hpp"
+	"ourasert.h"
+	"hash_tem.hpp"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/chunkpal.cpp
+	"chunkpal.hpp"
+	"mishchnk.hpp"
+	"ourasert.h"
+
+1792531355 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/db.c
+	"fixer.h"
+	<windows.h>
+	"advwin32.h"
+	<ddraw.h>
+	"db.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdarg.h>
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/debuglog.cpp
+	<string.h>
+	<stdlib.h>
+	"debuglog.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/dummyobjectchunk.cpp
+	"dummyobjectchunk.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/dummyobjectchunk.hpp
+	"chunk.hpp"
+	"list_tem.hpp"
+	"chnktype.hpp"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/enumchnk.cpp
+	"enumchnk.hpp"
+
+1792535066 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/enumchnk.hpp
+	"chunk.hpp"
+	"mishchnk.hpp"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/enumsch.cpp
+	<string.h>
+	"enumsch.hpp"
+
+1792535001 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/enumsch.hpp
+	"chunk.hpp"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/envchunk.cpp
+	"chunk.hpp"
+	"envchunk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/fail.c
+	"3dc.h"
+	"fail.h"
+	"dxlog.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/fragchnk.cpp
+	"fragchnk.hpp"
+
+1792531356 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/gsprchnk.cpp
+	"gsprchnk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/hierchnk.cpp
+	"hierchnk.hpp"
+	"obchunk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/huffman.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fixer.h"
+	"huffman.hpp"
+
+1792695222 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/iff.cpp
+	"iff.hpp"
+	<stdio.h>
+	<typeinfo>
+	"hash_tem.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/iff_ilbm.cpp
+	"iff_ilbm.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/ilbm_ext.cpp
+	"ilbm_ext.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/ilbm_ext.hpp
+	"iff.hpp"
+	"iff_ilbm.hpp"
+
+1793457953 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/io.c
+	"3dc.h"
+	<sys/stat.h>
+	<string.h>
+	"inline.h"
+	"module.h"
+	"chnktexi.h"
+	"d3d_hud.h"
+	"ourasert.h"
+	"hud_layout.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/list_tem.cpp
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/ltchunk.cpp
+	"chunk.hpp"
+	"ltchunk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/media.cpp
+	"fixer.h"
+	"media.hpp"
+
+1793305433 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/mishchnk.cpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"mishchnk.hpp"
+	"shpchunk.hpp"
+	"obchunk.hpp"
+	"huffman.hpp"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/obchunk.cpp
+	"chunk.hpp"
+	"chnktype.hpp"
+	"mishchnk.hpp"
+	"obchunk.hpp"
+	"shpchunk.hpp"
+	"envchunk.hpp"
+	"md5.h"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/oechunk.cpp
+	"oechunk.h"
+	"chunk.hpp"
+
+1793301888 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/our_mem.c
+	"3dc.h"
+	<stdlib.h>
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/plat_shp.c
+	"3dc.h"
+	"module.h"
+	"inline.h"
+	"gameplat.h"
+	"gamedef.h"
+	"dynblock.h"
+	"dynamics.h"
+	"ourasert.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/plspecfn.c
+	"3dc.h"
+	<math.h>
+	"inline.h"
+	"module.h"
+	"stratdef.h"
+	"gamedef.h"
+	"bh_types.h"
+	"pvisible.h"
+	"kzsort.h"
+	"kshape.h"
+
+1792531354 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/shpchunk.cpp
+	<math.h>
+	"unaligned.h"
+	"chunk.hpp"
+	"chnktype.hpp"
+	"shpchunk.hpp"
+	"obchunk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/sndchunk.cpp
+	"chunk.hpp"
+	"envchunk.hpp"
+	"sndchunk.hpp"
+	"obchunk.hpp"
+	"md5.h"
+
+1792531357 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/sprchunk.cpp
+	"sprchunk.hpp"
+	"mishchnk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/string.cpp
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"string.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/texio.c
+	"3dc.h"
+	<sys/stat.h>
+	"inline.h"
+	"chnktexi.h"
+	"ourasert.h"
+	<stdio.h>
+	<sys/stat.h>
+	"system.h"
+	"equates.h"
+	"platform.h"
+	"shape.h"
+	"prototyp.h"
+	"inline.h"
+	"chnktexi.h"
+	"awtexld.h"
+	"alt_tab.h"
+	"txioctrl.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/alt_tab.h
+	"aw.h"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/txioctrl.h
+	"system.h"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/toolchnk.cpp
+	"toolchnk.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/toolchnk.hpp
+	"chunk.hpp"
+	"chnktype.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/txioctrl.cpp
+	"txioctrl.h"
+	"list_tem.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/wpchunk.cpp
+	"wpchunk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/zsp.cpp
+	<math.h>
+	"list_tem.hpp"
+	"zsp.hpp"
+
+1485749995 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/win95/zsp.hpp
+	"shpchunk.hpp"
+
+1485749995 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/maths.c
+	"3dc.h"
+	"inline.h"
+	"maths.h"
+
+1792691536 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/files.c
+	<assert.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<aros/posixc/dirent.h>
+	<dirent.h>
+	<fnmatch.h>
+	"fnmatch.h"
+	"aroserror.h"
+	"fixer.h"
+	"files.h"
+
+1793305433 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/winapi.c
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/time.h>
+	"fixer.h"
+
+1792531458 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/aroserror.c
+	<proto/intuition.h>
+
+1792525842 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/aroserror.h
+
+1788444912 /mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/fnmatch.h
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	"SDL_config_aros.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_platform.h
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_config_aros.h
+	"SDL_platform.h"
+	<aros/cpu.h>
+	<dos/dos.h>
+	<stdarg.h>
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/begin_code.h
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/close_code.h
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<aros/preprocessor/variadic/cast2iptr.hpp>
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_keysym.h
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1787412336 /home/peppe/Documents/arosbuilds/core-linux-x86_64/bin/linux-x86_64/AROS/Development/include/SDL/SDL_opengl.h
+	"SDL_config.h"
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<gl.h>
+	<glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<windows.h>
+	<stddef.h>
+
+1792535336 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/AvP/src/fnmatch.c
+	<string.h>
+	<ctype.h>
+	"fnmatch.h"
+
