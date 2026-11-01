@@ -2,9 +2,79 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release_AROS" />
-	<File name="src/avp/win95/endianio.c" open="0" top="0" tabpos="122" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_lift.c" open="0" top="0" tabpos="83" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="42" topLine="0" />
+			<Cursor1 position="15269" topLine="565" />
+		</Cursor>
+	</File>
+	<File name="src/win95/oechunk.cpp" open="0" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3957" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/dplayext.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4974" topLine="93" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_types.c" open="0" top="0" tabpos="62" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="83609" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/win95/awiffld.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13461" topLine="401" />
+		</Cursor>
+	</File>
+	<File name="src/avp/targeting.c" open="0" top="0" tabpos="67" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8475" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/oglfunc.h" open="1" top="0" tabpos="58" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9309" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="src/avp/pvisible.c" open="1" top="0" tabpos="65" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="43995" topLine="1031" />
+		</Cursor>
+	</File>
+	<File name="src/avp/psnd.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4139" topLine="130" />
+		</Cursor>
+	</File>
+	<File name="src/avp/support/coordstr.cpp" open="0" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10370" topLine="598" />
+		</Cursor>
+	</File>
+	<File name="src/win95/ilbm_ext.hpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1214" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/maths.h" open="1" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/bmp2.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3243" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="src/win95/chnktexi.cpp" open="0" top="0" tabpos="139" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24148" topLine="781" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_weap.h" open="0" top="0" tabpos="88" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1288" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/include/mem3dc.h" open="1" top="0" tabpos="82" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -32,11 +102,6 @@
 			<Cursor1 position="2111" topLine="8" />
 		</Cursor>
 	</File>
-	<File name="src/avp/pvisible.c" open="1" top="0" tabpos="65" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="43995" topLine="1031" />
-		</Cursor>
-	</File>
 	<File name="src/win95/iff.hpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="14008" topLine="33" />
@@ -47,14 +112,29 @@
 			<Cursor1 position="4558" topLine="206" />
 		</Cursor>
 	</File>
-	<File name="src/avp/psndproj.c" open="1" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/pmove.c" open="1" top="0" tabpos="63" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3051" topLine="89" />
+			<Cursor1 position="29726" topLine="1119" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/chtcodes.cpp" open="1" top="0" tabpos="92" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/frontend/avp_intro.cpp" open="1" top="0" tabpos="64" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3912" topLine="201" />
+			<Cursor1 position="190" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_gener.c" open="0" top="0" tabpos="85" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1629" topLine="43" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/frontend/avp_mp_config.cpp" open="1" top="0" tabpos="41" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16900" topLine="535" />
+		</Cursor>
+	</File>
+	<File name="src/avp/mempool.c" open="1" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="65" topLine="68" />
 		</Cursor>
 	</File>
 	<File name="src/md5.c" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -67,9 +147,9 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/bh_videoscreen.c" open="0" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/mempool.h" open="1" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5467" topLine="0" />
+			<Cursor1 position="155" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/map.c" open="0" top="0" tabpos="104" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -77,9 +157,9 @@
 			<Cursor1 position="0" topLine="45" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/frontend/avp_envinfo.c" open="1" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/fnmatch.c" open="0" top="0" tabpos="100" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="155808" topLine="5178" />
+			<Cursor1 position="59" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/avp/dynamics.c" open="0" top="0" tabpos="41" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -87,24 +167,9 @@
 			<Cursor1 position="171534" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/pldnet.c" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/savegame.c" open="1" top="0" tabpos="91" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="248028" topLine="8471" />
-		</Cursor>
-	</File>
-	<File name="src/fnmatch.c" open="0" top="0" tabpos="100" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="59" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/ffread.cpp" open="1" top="0" tabpos="80" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6784" topLine="320" />
-		</Cursor>
-	</File>
-	<File name="src/avp/cconvars.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="208" topLine="0" />
+			<Cursor1 position="11088" topLine="327" />
 		</Cursor>
 	</File>
 	<File name="src/stubs.c" open="1" top="0" tabpos="53" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -112,9 +177,24 @@
 			<Cursor1 position="1487" topLine="90" />
 		</Cursor>
 	</File>
-	<File name="src/avp/savegame.c" open="1" top="0" tabpos="91" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/endianio.c" open="0" top="0" tabpos="122" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="11088" topLine="327" />
+			<Cursor1 position="42" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_binsw.c" open="0" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20587" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_fhug.c" open="0" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="35084" topLine="1220" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/ffread.hpp" open="1" top="0" tabpos="81" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/avp/win95/strachnk.cpp" open="0" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -137,9 +217,9 @@
 			<Cursor1 position="90726" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/psnd.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/particle.c" open="0" top="0" tabpos="138" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4139" topLine="130" />
+			<Cursor1 position="56075" topLine="2559" />
 		</Cursor>
 	</File>
 	<File name="src/include/prototyp.h" open="1" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -147,19 +227,19 @@
 			<Cursor1 position="31584" topLine="2132" />
 		</Cursor>
 	</File>
-	<File name="src/avp/missions.cpp" open="0" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6364" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="src/fmv.h" open="1" top="0" tabpos="76" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/ffread.hpp" open="1" top="0" tabpos="81" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_plift.c" open="0" top="0" tabpos="64" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="16970" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_mission.c" open="0" top="0" tabpos="57" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3327" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/openal.c" open="1" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -167,14 +247,14 @@
 			<Cursor1 position="489" topLine="26" />
 		</Cursor>
 	</File>
-	<File name="src/avp/support/rentrntq.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="433" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="src/mathline.c" open="1" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="58" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/pldnet.c" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="248028" topLine="8471" />
 		</Cursor>
 	</File>
 	<File name="src/tables.c" open="0" top="0" tabpos="117" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -182,24 +262,29 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/avpview.c" open="1" top="0" tabpos="69" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/progress_bar.h" open="1" top="0" tabpos="77" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="12289" topLine="495" />
+			<Cursor1 position="392" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/bh_agun.c" open="1" top="0" tabpos="70" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/datatype.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4982" topLine="181" />
+			<Cursor1 position="47" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/hmodel.c" open="1" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_alien.c" open="1" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="59879" topLine="1993" />
+			<Cursor1 position="6299" topLine="235" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/ffstdio.cpp" open="1" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/scream.cpp" open="1" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2913" topLine="132" />
+			<Cursor1 position="1954" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="src/avp/shapes/cube.c" open="1" top="0" tabpos="93" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="81" />
 		</Cursor>
 	</File>
 	<File name="src/fmv.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -212,14 +297,14 @@
 			<Cursor1 position="5015" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/inventry.c" open="0" top="0" tabpos="78" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_marin.c" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="28746" topLine="955" />
+			<Cursor1 position="51797" topLine="1504" />
 		</Cursor>
 	</File>
-	<File name="src/avp/pmove.c" open="1" top="0" tabpos="63" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/davehook.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="29726" topLine="1119" />
+			<Cursor1 position="245" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/opengl.c" open="1" top="0" tabpos="78" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -232,9 +317,19 @@
 			<Cursor1 position="3996" topLine="147" />
 		</Cursor>
 	</File>
+	<File name="src/avp/bh_spcl.c" open="0" top="0" tabpos="76" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4911" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="src/winapi.c" open="1" top="0" tabpos="43" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="3952" topLine="187" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_debri.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8168" topLine="291" />
 		</Cursor>
 	</File>
 	<File name="src/frustum.c" open="0" top="0" tabpos="110" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -242,124 +337,9 @@
 			<Cursor1 position="0" topLine="6" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/progress_bar.h" open="1" top="0" tabpos="77" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="392" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/movement.c" open="1" top="0" tabpos="94" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="75" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/d3d_hud.cpp" open="0" top="0" tabpos="119" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="891" topLine="11" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_lnksw.c" open="0" top="0" tabpos="80" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="18246" topLine="750" />
-		</Cursor>
-	</File>
-	<File name="src/avp/equipmnt.c" open="0" top="0" tabpos="69" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="192424" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/scream.cpp" open="1" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1954" topLine="78" />
-		</Cursor>
-	</File>
-	<File name="src/win95/iff_ilbm.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1188" topLine="48" />
-		</Cursor>
-	</File>
-	<File name="src/avp/cdtrackselection.cpp" open="1" top="0" tabpos="101" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3746" topLine="187" />
-		</Cursor>
-	</File>
-	<File name="src/win95/awtexld.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5195" topLine="215" />
-		</Cursor>
-	</File>
-	<File name="src/avp/hmodel.h" open="1" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1308" topLine="44" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_selfdest.c" open="0" top="0" tabpos="49" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2608" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_mission.c" open="0" top="0" tabpos="57" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3327" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/win95/mishchnk.cpp" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="12552" topLine="591" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_spcl.c" open="0" top="0" tabpos="76" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4911" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/targeting.c" open="0" top="0" tabpos="67" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="8475" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_queen.c" open="0" top="0" tabpos="65" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="134566" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/win95/obchunk.cpp" open="0" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="12681" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/fnmatch.h" open="0" top="0" tabpos="99" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="790" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/objsetup.cpp" open="0" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="90159" topLine="3488" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_snds.c" open="0" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5568" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/hud.c" open="1" top="0" tabpos="62" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="13921" topLine="551" />
-		</Cursor>
-	</File>
-	<File name="src/win95/texio.c" open="1" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="15543" topLine="794" />
-		</Cursor>
-	</File>
 	<File name="src/avp/track.c" open="1" top="0" tabpos="56" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="4841" topLine="181" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_gener.h" open="0" top="0" tabpos="90" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2029" topLine="63" />
 		</Cursor>
 	</File>
 	<File name="src/avp/triggers.c" open="0" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -367,34 +347,109 @@
 			<Cursor1 position="3173" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/frontend/avp_menus.c" open="1" top="0" tabpos="90" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_snds.c" open="0" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="114460" topLine="4646" />
+			<Cursor1 position="5568" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/npcsetup.cpp" open="1" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/aroserror.c" open="1" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="233" topLine="8" />
+			<Cursor1 position="150" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/kshape.c" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/win95/iff_ilbm.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="107183" topLine="4432" />
+			<Cursor1 position="1188" topLine="48" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/pldghost.c" open="1" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/ffstdio.cpp" open="1" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="55680" topLine="1858" />
+			<Cursor1 position="2913" topLine="132" />
 		</Cursor>
 	</File>
-	<File name="src/avp/gamedef.h" open="1" top="0" tabpos="79" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/win95/awtexld.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4721" topLine="216" />
+			<Cursor1 position="5195" topLine="215" />
 		</Cursor>
 	</File>
-	<File name="src/aroserror.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_selfdest.c" open="0" top="0" tabpos="49" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="2608" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/win95/mishchnk.cpp" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12552" topLine="591" />
+		</Cursor>
+	</File>
+	<File name="src/win95/obchunk.cpp" open="0" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12681" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/stratdef.c" open="0" top="0" tabpos="58" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7290" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_queen.c" open="0" top="0" tabpos="65" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="134566" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/fnmatch.h" open="0" top="0" tabpos="99" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="790" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/support/rentrntq.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="433" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/pldnet.h" open="1" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15226" topLine="636" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/chtcodes.cpp" open="1" top="0" tabpos="92" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3912" topLine="201" />
+		</Cursor>
+	</File>
+	<File name="src/win95/texio.c" open="1" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15543" topLine="794" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/objsetup.cpp" open="0" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="90159" topLine="3488" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_videoscreen.c" open="0" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5467" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/ddplat.cpp" open="1" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4581" topLine="133" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/ffread.cpp" open="1" top="0" tabpos="80" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6784" topLine="320" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_deathvol.c" open="0" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4490" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/cconvars.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="208" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/win95/our_mem.c" open="1" top="0" tabpos="84" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -402,19 +457,19 @@
 			<Cursor1 position="695" topLine="11" />
 		</Cursor>
 	</File>
-	<File name="src/avp/mempool.c" open="1" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_agun.c" open="1" top="0" tabpos="70" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="65" topLine="68" />
+			<Cursor1 position="4982" topLine="181" />
+		</Cursor>
+	</File>
+	<File name="src/avp/sequnces.h" open="1" top="0" tabpos="100" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="323" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/frustum.h" open="1" top="0" tabpos="75" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_light.c" open="0" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="25865" topLine="1022" />
 		</Cursor>
 	</File>
 	<File name="src/opengl.h" open="1" top="0" tabpos="72" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -427,24 +482,34 @@
 			<Cursor1 position="3159" topLine="111" />
 		</Cursor>
 	</File>
-	<File name="src/avp/mempool.h" open="1" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/weapons.c" open="0" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="155" topLine="0" />
+			<Cursor1 position="335476" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/pldnet.h" open="1" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_plachier.c" open="0" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="15226" topLine="636" />
+			<Cursor1 position="8203" topLine="271" />
 		</Cursor>
 	</File>
-	<File name="src/avp/language.c" open="1" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_gener.h" open="0" top="0" tabpos="90" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="433" topLine="18" />
+			<Cursor1 position="2029" topLine="63" />
 		</Cursor>
 	</File>
-	<File name="src/avp/support/scstring.cpp" open="0" top="0" tabpos="121" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_track.c" open="0" top="0" tabpos="82" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2973" topLine="131" />
+			<Cursor1 position="11171" topLine="497" />
+		</Cursor>
+	</File>
+	<File name="src/avp/hmodel.c" open="1" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="59879" topLine="1993" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/projload.cpp" open="1" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="86238" topLine="3220" />
 		</Cursor>
 	</File>
 	<File name="src/win95/bmpnames.hpp" open="0" top="0" tabpos="93" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -452,29 +517,14 @@
 			<Cursor1 position="17204" topLine="469" />
 		</Cursor>
 	</File>
+	<File name="src/avp/win95/pldghost.c" open="1" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="55680" topLine="1858" />
+		</Cursor>
+	</File>
 	<File name="src/win95/iff_ilbm.hpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="572" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_debri.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="8168" topLine="291" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_weap.c" open="0" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3749" topLine="69" />
-		</Cursor>
-	</File>
-	<File name="src/avp/gamecmds.cpp" open="1" top="0" tabpos="87" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4881" topLine="217" />
-		</Cursor>
-	</File>
-	<File name="src/avp/gamevars.cpp" open="1" top="0" tabpos="88" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2212" topLine="110" />
 		</Cursor>
 	</File>
 	<File name="src/cdplayer.c" open="1" top="0" tabpos="66" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -482,14 +532,9 @@
 			<Cursor1 position="1293" topLine="93" />
 		</Cursor>
 	</File>
-	<File name="src/avp/particle.c" open="0" top="0" tabpos="138" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_pargen.c" open="0" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="56075" topLine="2559" />
-		</Cursor>
-	</File>
-	<File name="src/avp/weapons.c" open="0" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="335476" topLine="0" />
+			<Cursor1 position="6151" topLine="224" />
 		</Cursor>
 	</File>
 	<File name="src/shpanim.c" open="0" top="0" tabpos="116" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -497,24 +542,24 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/bh_types.c" open="0" top="0" tabpos="62" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="83609" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="src/object.c" open="0" top="0" tabpos="115" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/bh_pargen.c" open="0" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/gamecmds.cpp" open="1" top="0" tabpos="87" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6151" topLine="224" />
+			<Cursor1 position="4881" topLine="217" />
 		</Cursor>
 	</File>
-	<File name="src/avp/bh_marin.c" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/gamedef.h" open="1" top="0" tabpos="79" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="51797" topLine="1504" />
+			<Cursor1 position="4721" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="src/avp/avpview.c" open="1" top="0" tabpos="69" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12289" topLine="495" />
 		</Cursor>
 	</File>
 	<File name="src/win95/chnktype.cpp" open="0" top="0" tabpos="43" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -527,19 +572,14 @@
 			<Cursor1 position="13252" topLine="668" />
 		</Cursor>
 	</File>
+	<File name="src/avp/inventry.c" open="0" top="0" tabpos="78" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="28746" topLine="955" />
+		</Cursor>
+	</File>
 	<File name="src/win95/chunk.hpp" open="0" top="0" tabpos="91" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="13787" topLine="477" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/projload.cpp" open="1" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="86238" topLine="3220" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_track.c" open="0" top="0" tabpos="82" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="11171" topLine="497" />
 		</Cursor>
 	</File>
 	<File name="src/win95/platform.h" open="1" top="0" tabpos="67" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -552,9 +592,9 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/frontend/avp_intro.cpp" open="1" top="0" tabpos="64" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/scrshot.cpp" open="1" top="0" tabpos="42" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="190" topLine="0" />
+			<Cursor1 position="2031" topLine="59" />
 		</Cursor>
 	</File>
 	<File name="src/win95/awbmpld.cpp" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -565,36 +605,6 @@
 	<File name="src/net.h" open="0" top="0" tabpos="131" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="113" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_weap.h" open="0" top="0" tabpos="88" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1288" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_alien.c" open="1" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6299" topLine="235" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_plift.c" open="0" top="0" tabpos="64" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="16970" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_marin.h" open="1" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1682" topLine="83" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_binsw.c" open="0" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="20587" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/scrshot.cpp" open="1" top="0" tabpos="42" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2031" topLine="59" />
 		</Cursor>
 	</File>
 	<File name="src/win95/envchunk.cpp" open="0" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -617,14 +627,9 @@
 			<Cursor1 position="165" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/sequnces.h" open="1" top="0" tabpos="100" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/frontend/avp_menus.c" open="1" top="0" tabpos="90" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="323" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/datatype.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="47" topLine="0" />
+			<Cursor1 position="114460" topLine="4646" />
 		</Cursor>
 	</File>
 	<File name="src/mathline.h" open="1" top="0" tabpos="99" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -632,14 +637,39 @@
 			<Cursor1 position="83" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="src/avp/win95/d3d_hud.cpp" open="0" top="0" tabpos="119" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="891" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="src/avp/game.c" open="1" top="0" tabpos="44" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10671" topLine="504" />
+		</Cursor>
+	</File>
+	<File name="src/kshape.c" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="107183" topLine="4432" />
+		</Cursor>
+	</File>
 	<File name="src/net.c" open="1" top="0" tabpos="45" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1199" topLine="24" />
 		</Cursor>
 	</File>
-	<File name="src/avp/game_statistics.c" open="1" top="0" tabpos="89" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/cdtrackselection.cpp" open="1" top="0" tabpos="101" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="882" topLine="13" />
+			<Cursor1 position="3746" topLine="187" />
+		</Cursor>
+	</File>
+	<File name="src/avp/hmodel.h" open="1" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1308" topLine="44" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_marin.h" open="1" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1682" topLine="83" />
 		</Cursor>
 	</File>
 	<File name="src/win95/animobs.cpp" open="1" top="0" tabpos="96" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -647,19 +677,14 @@
 			<Cursor1 position="357" topLine="181" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/bmp2.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3243" topLine="37" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_gener.c" open="0" top="0" tabpos="85" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1629" topLine="43" />
-		</Cursor>
-	</File>
 	<File name="src/morph.c" open="0" top="0" tabpos="114" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/dp_func.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="776" topLine="4" />
 		</Cursor>
 	</File>
 	<File name="src/win95/shpchunk.cpp" open="1" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -667,14 +692,29 @@
 			<Cursor1 position="79843" topLine="3314" />
 		</Cursor>
 	</File>
+	<File name="src/avp/missions.cpp" open="0" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6364" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="src/win95/chnkload.hpp" open="0" top="0" tabpos="94" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="467" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/progress_bar.cpp" open="1" top="0" tabpos="46" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/aroserror.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2054" topLine="46" />
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/frontend/avp_envinfo.c" open="1" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="155808" topLine="5178" />
+		</Cursor>
+	</File>
+	<File name="src/avp/win95/npcsetup.cpp" open="1" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="233" topLine="8" />
 		</Cursor>
 	</File>
 	<File name="src/win95/gsprchnk.cpp" open="0" top="0" tabpos="77" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -687,19 +727,19 @@
 			<Cursor1 position="1430" topLine="26" />
 		</Cursor>
 	</File>
-	<File name="src/avp/game.c" open="1" top="0" tabpos="44" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="10671" topLine="504" />
-		</Cursor>
-	</File>
 	<File name="src/avp/bh_ais.c" open="1" top="0" tabpos="49" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1244" topLine="42" />
 		</Cursor>
 	</File>
-	<File name="src/avp/bh_deathvol.c" open="0" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/gamevars.cpp" open="1" top="0" tabpos="88" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4490" topLine="0" />
+			<Cursor1 position="2212" topLine="110" />
+		</Cursor>
+	</File>
+	<File name="src/avp/hud.c" open="1" top="0" tabpos="62" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13921" topLine="551" />
 		</Cursor>
 	</File>
 	<File name="src/win95/cd_player.h" open="1" top="0" tabpos="57" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -707,14 +747,14 @@
 			<Cursor1 position="1993" topLine="42" />
 		</Cursor>
 	</File>
-	<File name="src/avp/win95/ddplat.cpp" open="1" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4581" topLine="133" />
-		</Cursor>
-	</File>
 	<File name="src/win95/chunkpal.cpp" open="0" top="0" tabpos="61" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1165" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/bh_lnksw.c" open="0" top="0" tabpos="80" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18246" topLine="750" />
 		</Cursor>
 	</File>
 	<File name="src/win95/ilbm_ext.cpp" open="0" top="0" tabpos="128" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -722,14 +762,19 @@
 			<Cursor1 position="1506" topLine="50" />
 		</Cursor>
 	</File>
+	<File name="src/avp/support/scstring.cpp" open="0" top="0" tabpos="121" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2973" topLine="131" />
+		</Cursor>
+	</File>
+	<File name="src/avp/equipmnt.c" open="0" top="0" tabpos="69" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="192424" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="src/win95/plspecfn.c" open="1" top="0" tabpos="98" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="13323" topLine="669" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/pcmenus.h" open="0" top="0" tabpos="120" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1773" topLine="90" />
 		</Cursor>
 	</File>
 	<File name="src/win95/iff.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -737,19 +782,19 @@
 			<Cursor1 position="14601" topLine="623" />
 		</Cursor>
 	</File>
+	<File name="src/avp/game_statistics.c" open="1" top="0" tabpos="89" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="882" topLine="13" />
+		</Cursor>
+	</File>
 	<File name="src/mem3dc.c" open="1" top="0" tabpos="83" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="6878" topLine="39" />
 		</Cursor>
 	</File>
-	<File name="src/avp/bh_fhug.c" open="0" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/progress_bar.cpp" open="1" top="0" tabpos="46" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="35084" topLine="1220" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/frontend/avp_mp_config.cpp" open="1" top="0" tabpos="41" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="16900" topLine="535" />
+			<Cursor1 position="2054" topLine="46" />
 		</Cursor>
 	</File>
 	<File name="src/maths.c" open="1" top="0" tabpos="47" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -759,7 +804,7 @@
 	</File>
 	<File name="src/main.c" open="1" top="1" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1431" topLine="51" />
+			<Cursor1 position="24489" topLine="1189" />
 		</Cursor>
 	</File>
 	<File name="src/vdb.c" open="0" top="0" tabpos="118" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -772,9 +817,19 @@
 			<Cursor1 position="20760" topLine="864" />
 		</Cursor>
 	</File>
+	<File name="src/avp/bh_light.c" open="0" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25865" topLine="1022" />
+		</Cursor>
+	</File>
 	<File name="src/kshape.h" open="1" top="0" tabpos="74" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/avp/movement.c" open="1" top="0" tabpos="94" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="75" />
 		</Cursor>
 	</File>
 	<File name="src/version.h" open="1" top="0" tabpos="86" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -782,9 +837,14 @@
 			<Cursor1 position="45" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/avp/davehook.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/language.c" open="1" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="245" topLine="0" />
+			<Cursor1 position="433" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="src/avp/psndproj.c" open="1" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3051" topLine="89" />
 		</Cursor>
 	</File>
 	<File name="src/oglfunc.c" open="1" top="0" tabpos="59" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -792,69 +852,9 @@
 			<Cursor1 position="4015" topLine="93" />
 		</Cursor>
 	</File>
-	<File name="src/avp/support/coordstr.cpp" open="0" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/win95/pcmenus.h" open="0" top="0" tabpos="120" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="10370" topLine="598" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/dp_func.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="776" topLine="4" />
-		</Cursor>
-	</File>
-	<File name="src/win95/awtexld.hpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="7588" topLine="234" />
-		</Cursor>
-	</File>
-	<File name="src/win95/oechunk.cpp" open="0" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3957" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/aroserror.c" open="1" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="150" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/win95/awiffld.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="13461" topLine="401" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_lift.c" open="0" top="0" tabpos="83" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="15269" topLine="565" />
-		</Cursor>
-	</File>
-	<File name="src/avp/shapes/cube.c" open="1" top="0" tabpos="93" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="81" />
-		</Cursor>
-	</File>
-	<File name="src/oglfunc.h" open="1" top="0" tabpos="58" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="9309" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="src/avp/win95/dplayext.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4974" topLine="93" />
-		</Cursor>
-	</File>
-	<File name="src/avp/bh_plachier.c" open="0" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="8203" topLine="271" />
-		</Cursor>
-	</File>
-	<File name="src/win95/ilbm_ext.hpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1214" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/maths.h" open="1" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="1773" topLine="90" />
 		</Cursor>
 	</File>
 	<File name="src/avp/win95/projload.hpp" open="1" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -862,14 +862,14 @@
 			<Cursor1 position="2221" topLine="85" />
 		</Cursor>
 	</File>
-	<File name="src/avp/stratdef.c" open="0" top="0" tabpos="58" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/avp/bh_weap.c" open="0" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7290" topLine="0" />
+			<Cursor1 position="3749" topLine="69" />
 		</Cursor>
 	</File>
-	<File name="src/win95/chnktexi.cpp" open="0" top="0" tabpos="139" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/win95/awtexld.hpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="24148" topLine="781" />
+			<Cursor1 position="7588" topLine="234" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -1,0 +1,22 @@
+This is the AROS 64-bit porting of Aliens vs Predator Gold edition.
+It still uses SDL v1.2 and is based on the old AROS 32-bit/MorphOS
+porting, but it has been updated to the latest version (avp-20170505-a1)
+available here https://github.com/dreamer/avp-forever
+However very few changes were introduced as well as this version fixes
+a couple of issues related to the AROS platform.
+
+AvP requires a copy of the data taken from an original installation
+on Windows platform. Three folders (avp_huds, avp_rifs and fastfile)
+and one file (language.txt) must be copied inside the folder of the game.
+All the folders and files should be in lowercase.
+
+It still has the same limitations of the other forks, such as no joypad,
+cd audio and movies supports. It supports some commands via shell:
+-v  Display the game version
+-f  Run the game fullscreen (selected as default by this porting)
+-w  Run the game in a window
+-s  Do not access the soundcard
+
+Source code and additional information are available here
+https://github.com/sonountaleban/AvP
+
